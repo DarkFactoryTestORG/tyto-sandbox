@@ -1,0 +1,74 @@
+# Plotline's repo contract with the TYTO factory (docs/plan/CONTEXT.md §15 in the factory repo).
+# The factory reads this file from the base SHA on dev, never from a branch (F45), and no agent may
+# change anything under .tyto/ or .github/workflows/ (F46).
+git:
+  baseBranch: dev
+
+toolchain:
+  dockerfile: .tyto/toolchain.Dockerfile # the image the base is built on (phase 08)
+
+# Run with sh -c from the repo root. DATABASE_URL (services.postgres.urlEnv) is set by the sandbox.
+commands:
+  install: pnpm install --frozen-lockfile
+  build: pnpm turbo run build
+  test: pnpm turbo run test # unit, integration and Rust tests; JUnit to reports/junit/
+  test-e2e: pnpm test:e2e # Playwright at 1440×900 and 375×812; resets and seeds baseline first
+  lint: pnpm turbo run lint # ESLint and clippy
+  typecheck: pnpm turbo run typecheck
+  format: pnpm format:check # Prettier and rustfmt
+  migrate: pnpm --filter @plotline/db migrate
+  dbReset: pnpm --filter @plotline/db reset
+  seed: pnpm --filter @plotline/db seed --scenario {scenario}
+
+reports:
+  junit: reports/junit/**/*.xml
+
+paths:
+  tests:
+    - '**/*.test.ts'
+    - '**/*.test.tsx'
+    - '**/*.spec.ts'
+    - apps/api/test/**
+    - apps/web/e2e/**
+    - packages/db/test/**
+    - crates/*/tests/**
+  evidence: evidence/
+  forbidden: ['.tyto/**', '.github/workflows/**'] # always forbidden, whatever is listed
+
+standards:
+  coding: .tyto/standards/coding.md
+  testing: .tyto/standards/testing.md
+  design-system: .tyto/standards/design.md
+  evidence: .tyto/standards/evidence.md
+
+seeds:
+  inputs: ['packages/db/migrations/**', 'packages/db/seeds/**'] # hashed into the snapshot key
+  baseline: baseline
+  review: review
+  reviewAccounts: packages/db/seeds/review/README.md
+
+services:
+  postgres: { image: 'postgres:17', database: plotline, urlEnv: DATABASE_URL }
+
+# Review images and the preview (phases 08 and 11). NODE_ENV=preview keeps the dev auth bypass
+# allowed: the API refuses PLOTLINE_DEV_AUTH=1 only under NODE_ENV=production.
+apps:
+  api:
+    dockerfile: apps/api/Dockerfile
+    port: 4000
+    health: /health
+    env:
+      DATABASE_URL: '{{services.postgres.url}}'
+      NODE_ENV: preview
+      PLOTLINE_DEV_AUTH: '1'
+  web:
+    dockerfile: apps/web/Dockerfile
+    port: 3000
+    health: /login
+    entry: true
+    env:
+      API_URL: '{{apps.api.url}}'
+
+buildCache: [turbo, sccache]
+
+resources: { cpu: '4', memory: 8Gi, ephemeralStorage: 40Gi }
