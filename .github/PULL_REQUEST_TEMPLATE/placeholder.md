@@ -3,6 +3,6 @@
 
 ## Summary
 
-## Stages
+## Steps
 
 ## Notes
