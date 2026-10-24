@@ -1,0 +1,39 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+.field > span:first-child {
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+.field input,
+.field textarea,
+.field select {
+  min-height: 36px;
+  padding: var(--space-sm);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  font: inherit;
+}
+.field [aria-invalid='true'] {
+  border-color: var(--color-danger);
+}
+.error {
+  color: var(--color-danger);
+  font-size: 0.875rem;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: var(--space-sm);
+}
+.row .field {
+  flex: 1 1 200px;
+}

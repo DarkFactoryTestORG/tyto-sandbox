@@ -1,0 +1,28 @@
+{
+  "name": "@plotline/textkit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Node binding (napi-rs) for crates/textkit. The .node binary is built, never committed.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "textkit.node"
+  ],
+  "napi": {
+    "name": "textkit"
+  },
+  "scripts": {
+    "build": "napi build --release --dts index.generated.d.ts && rm -f index.generated.d.ts",
+    "test": "vitest run",
+    "lint": "eslint . && cargo clippy -p textkit-node -- -D warnings",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@plotline/textkit-rs": "workspace:*",
+    "@napi-rs/cli": "2.18.4",
+    "@types/node": "22.18.13",
+    "vitest": "3.2.4"
+  }
+}

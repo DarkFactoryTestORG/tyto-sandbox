@@ -1,0 +1,24 @@
+{
+  "name": "@plotline/shared",
+  "version": "0.1.0",
+  "private": true,
+  "description": "zod schemas, types and small helpers shared by the web app and the API.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "22.18.13",
+    "vitest": "3.2.4"
+  }
+}

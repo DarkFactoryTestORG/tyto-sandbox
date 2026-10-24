@@ -1,0 +1,35 @@
+{
+  "name": "@plotline/db",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Drizzle schema, SQL migrations, seed scenarios and the migrate/reset/seed CLIs.",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "files": [
+    "dist",
+    "migrations"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "generate": "drizzle-kit generate",
+    "migrate": "node dist/src/cli/migrate.js",
+    "reset": "node dist/src/cli/reset.js",
+    "seed": "node dist/src/cli/seed.js",
+    "fixtures": "node dist/src/cli/fixtures.js",
+    "test": "vitest run",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@plotline/textkit": "workspace:*",
+    "bcryptjs": "3.0.2",
+    "drizzle-orm": "0.44.7",
+    "pg": "8.16.3"
+  },
+  "devDependencies": {
+    "@types/node": "22.18.13",
+    "@types/pg": "8.15.6",
+    "drizzle-kit": "0.31.6",
+    "vitest": "3.2.4"
+  }
+}

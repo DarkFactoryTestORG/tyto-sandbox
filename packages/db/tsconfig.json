@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "Node10",
+    "types": ["node"],
+    "noEmit": true
+  },
+  "include": ["src/**/*.ts", "seeds/**/*.ts", "test/**/*.ts", "drizzle.config.ts", "vitest.config.ts"]
+}

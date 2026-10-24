@@ -1,0 +1,64 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "envMode": "strict",
+  "globalDependencies": ["tsconfig.base.json", "rust-toolchain.toml"],
+  "globalPassThroughEnv": [
+    "HOME",
+    "PATH",
+    "CI",
+    "CARGO_HOME",
+    "RUSTUP_HOME",
+    "CARGO_TARGET_DIR",
+    "CARGO_INCREMENTAL",
+    "RUSTC_WRAPPER",
+    "SCCACHE_*",
+    "AWS_*",
+    "PLAYWRIGHT_BROWSERS_PATH",
+    "NEXT_TELEMETRY_DISABLED"
+  ],
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "env": ["NODE_ENV"],
+      "outputs": ["dist/**", ".next/**", "!.next/cache/**", "*.node"]
+    },
+    "typecheck": {
+      "dependsOn": ["^build"],
+      "outputs": []
+    },
+    "lint": {
+      "dependsOn": ["^build"],
+      "outputs": []
+    },
+    "test": {
+      // @plotline/db and @plotline/api share DATABASE_URL: apps/api/turbo.json runs them one after the other.
+      "dependsOn": ["^build"],
+      "env": [
+        "DATABASE_URL",
+        "NODE_ENV",
+        "SESSION_SECRET",
+        "PLOTLINE_DEV_AUTH",
+        "PLOTLINE_SECRET_KEY",
+        "PLOTLINE_FLAGS",
+        "PLOTLINE_SEED_NOW"
+      ],
+      "outputs": ["$TURBO_ROOT$/reports/junit/**"]
+    },
+    "test:e2e": {
+      "dependsOn": ["^build", "build"],
+      "env": [
+        "DATABASE_URL",
+        "SESSION_SECRET",
+        "PLOTLINE_SECRET_KEY",
+        "PLOTLINE_FLAGS",
+        "API_URL",
+        "WEB_URL"
+      ],
+      "outputs": ["$TURBO_ROOT$/reports/junit/**", "test-results/**"],
+      "cache": false
+    },
+    "//#format:check": {
+      "cache": false
+    }
+  }
+}

@@ -1,0 +1,7 @@
+# cargo nextest run --profile ci writes JUnit to target/nextest/ci/junit.xml; the textkit crate's
+# test script copies it to reports/junit/textkit-rust.xml.
+[profile.ci]
+fail-fast = false
+
+[profile.ci.junit]
+path = "junit.xml"

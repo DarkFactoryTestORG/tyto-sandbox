@@ -1,0 +1,11 @@
+{
+  "name": "@plotline/textkit-rs",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The textkit Rust crate. Turbo runs its tests and clippy; packages/textkit binds it for Node.",
+  "scripts": {
+    "test": "cargo nextest run -p textkit --profile ci && mkdir -p ../../reports/junit && cp ../../target/nextest/ci/junit.xml ../../reports/junit/textkit-rust.xml",
+    "lint": "cargo clippy -p textkit --all-targets -- -D warnings",
+    "typecheck": "cargo check -p textkit --all-targets --quiet"
+  }
+}

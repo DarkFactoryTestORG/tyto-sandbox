@@ -1,0 +1,33 @@
+{
+  "name": "plotline",
+  "private": true,
+  "packageManager": "pnpm@10.28.0",
+  "engines": {
+    "node": ">=22.22.0 <23"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "test:e2e": "turbo run build && pnpm --filter @plotline/db reset && pnpm --filter @plotline/db seed --scenario baseline && turbo run test:e2e",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "format": "prettier --write . && cargo fmt --all",
+    "format:check": "prettier --check . && cargo fmt --all --check",
+    "db:migrate": "pnpm --filter @plotline/db migrate",
+    "db:reset": "pnpm --filter @plotline/db reset",
+    "db:seed": "pnpm --filter @plotline/db seed",
+    "dev:api": "pnpm --filter @plotline/api dev",
+    "dev:web": "pnpm --filter @plotline/web dev",
+    "changelog:check": "node scripts/check-changelog.mjs"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.39.5",
+    "eslint": "9.39.5",
+    "eslint-plugin-react-hooks": "5.2.0",
+    "globals": "16.4.0",
+    "prettier": "3.6.2",
+    "turbo": "2.11.10",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.46.2"
+  }
+}
