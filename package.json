@@ -8,7 +8,7 @@
   "scripts": {
     "build": "turbo run build",
     "test": "turbo run test",
-    "test:e2e": "pnpm --filter @plotline/db reset && pnpm --filter @plotline/db seed --scenario baseline && turbo run test:e2e",
+    "test:e2e": "turbo run build && pnpm --filter @plotline/db reset && pnpm --filter @plotline/db seed --scenario baseline && turbo run test:e2e",
     "lint": "turbo run lint",
     "typecheck": "turbo run typecheck",
     "format": "prettier --write . && cargo fmt --all",
