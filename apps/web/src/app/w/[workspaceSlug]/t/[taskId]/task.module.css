@@ -1,0 +1,13 @@
+.crumb {
+  margin: 0 0 var(--space-sm);
+}
+.status {
+  color: var(--color-text-muted);
+}
+.description {
+  white-space: pre-wrap;
+}
+.assignee {
+  max-width: 320px;
+  margin-top: var(--space-xl);
+}

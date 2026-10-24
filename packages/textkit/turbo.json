@@ -1,0 +1,18 @@
+{
+  "extends": ["//"],
+  "tasks": {
+    "build": {
+      "inputs": [
+        "$TURBO_DEFAULT$",
+        "$TURBO_ROOT$/crates/textkit/src/**",
+        "$TURBO_ROOT$/crates/textkit/Cargo.toml",
+        "$TURBO_ROOT$/Cargo.toml",
+        "$TURBO_ROOT$/Cargo.lock"
+      ],
+      "outputs": ["textkit.node"]
+    },
+    "test": {
+      "dependsOn": ["build"]
+    }
+  }
+}

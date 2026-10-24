@@ -1,0 +1,21 @@
+{
+  "extends": ["//"],
+  "tasks": {
+    "test": {
+      "inputs": [
+        "src/**",
+        "tests/**",
+        "Cargo.toml",
+        "$TURBO_ROOT$/Cargo.lock",
+        "$TURBO_ROOT$/.config/nextest.toml"
+      ],
+      "outputs": ["$TURBO_ROOT$/reports/junit/textkit-rust.xml"]
+    },
+    "lint": {
+      "inputs": ["src/**", "tests/**", "Cargo.toml", "$TURBO_ROOT$/Cargo.lock"]
+    },
+    "typecheck": {
+      "inputs": ["src/**", "tests/**", "Cargo.toml", "$TURBO_ROOT$/Cargo.lock"]
+    }
+  }
+}
