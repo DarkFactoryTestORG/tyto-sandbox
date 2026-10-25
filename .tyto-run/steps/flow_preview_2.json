@@ -1,0 +1,11 @@
+{
+  "key": "flow/preview@2",
+  "seq": 23,
+  "specHash": "429dfa90af535a102697bcb01bf6c2af2d69b0a0fa4570c4c483ccea566726b2",
+  "status": "done",
+  "summary": "preview at http://51-tyto-sandbox.localtest.me:8080/ for 712392b09e45 (started in 12.3 s)",
+  "result": {
+    "status": "done",
+    "summary": "preview at http://51-tyto-sandbox.localtest.me:8080/ for 712392b09e45 (started in 12.3 s)"
+  }
+}

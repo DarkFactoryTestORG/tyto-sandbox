@@ -25,3 +25,4 @@ Changed the background and label to mint (#98ff98); lint, typecheck, and all tes
 | flow/final-gates@2 | done | 429dfa90af53 | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
 | flow/review-images@2 | done | 429dfa90af53 | 2 review image(s) built for 712392b09e45 |
 | flow/review-seed@2 | done | 429dfa90af53 | database seeded with the review scenario review |
+| flow/preview@2 | done | 429dfa90af53 | preview at http://51-tyto-sandbox.localtest.me:8080/ for 712392b09e45 (started in 12.3 s) |
