@@ -1,4 +1,0 @@
-{"type":"run-start","ts":"2026-10-25T18:15:20.599Z","attempt":1}
-{"ts":"2026-10-25T18:15:55.848Z","runId":"DarkFactoryTestORG/tyto-sandbox#51/attempt-1","step":"flow/demo-colour","brick":"demo-colour","role":"Implementer","tier":"low","provider":"openai-codex","model":"gpt-6.1-sol","session":"01a17446-5693-776f-acf2-4182fe62dee1","stop":"tool","turns":3,"inputTokens":5576,"outputTokens":265,"cacheReadTokens":4864,"cacheWriteTokens":0,"costUsd":0.014288,"costSource":"harness"}
-{"type":"run-start","ts":"2026-10-25T18:18:57.861Z","attempt":2}
-{"ts":"2026-10-25T18:19:59.013Z","runId":"DarkFactoryTestORG/tyto-sandbox#51/attempt-2","step":"flow/judge@2","brick":"judge","role":"Judge","tier":"high","provider":"openai-codex","model":"gpt-6.1-sol","session":"01a17449-bead-740b-973f-b3fb668b94bb","stop":"tool","turns":6,"inputTokens":7622,"outputTokens":493,"cacheReadTokens":28288,"cacheWriteTokens":0,"costUsd":0.023003,"costSource":"harness"}
