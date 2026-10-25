@@ -6,3 +6,4 @@ reports/
 .next/
 dist/
 CHANGELOG.md
+.tyto-run/
