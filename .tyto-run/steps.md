@@ -14,3 +14,4 @@
 | flow/review-seed | done | 429dfa90af53 | database seeded with the review scenario review |
 | flow/preview | done | 429dfa90af53 | preview at http://51-tyto-sandbox.localtest.me:8080/ for 7938872b8ef5 (started in 4.6 s) |
 | flow/prepare | done | 429dfa90af53 | on tyto/51-demo-background-colour-ocean-blue (fetched (6aed03499cc9)), base e9e85008652b, run state restored from 2027dfffcabd |
+| flow/sync@2 | done | 429dfa90af53 | up to date with dev at e9e85008652b |
