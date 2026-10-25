@@ -13,3 +13,4 @@
 | flow/final-gates | done | 429dfa90af53 | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
 | flow/review-images | done | 429dfa90af53 | 2 review image(s) built for 4a41534c427a |
 | flow/review-seed | done | 429dfa90af53 | database seeded with the review scenario review |
+| flow/preview | done | 429dfa90af53 | preview at http://48-tyto-sandbox.localtest.me:8080/ for 4a41534c427a (started in 10.9 s) |
