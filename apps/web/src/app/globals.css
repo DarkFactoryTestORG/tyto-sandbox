@@ -19,7 +19,7 @@ a {
 
 /* tyto-demo:start — the page background the demo issue asked for. Keep the colour and the label in step. */
 :root {
-  --demo-background: #4fa3ff;
+  --demo-background: #98ff98;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
 }
 
 body::before {
-  content: 'Background #4fa3ff';
+  content: 'Background #98ff98 (Mint)';
   display: block;
   padding: var(--space-xs) var(--space-md);
   background: var(--color-text);

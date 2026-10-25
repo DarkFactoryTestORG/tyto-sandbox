@@ -1,0 +1,29 @@
+{
+  "key": "flow/judge@2",
+  "seq": 16,
+  "specHash": "429dfa90af535a102697bcb01bf6c2af2d69b0a0fa4570c4c483ccea566726b2",
+  "status": "done",
+  "summary": "round 2: 1 applied\n\nChanged the background and label to mint (#98ff98); lint, typecheck, and all tests pass with no JUnit failures.",
+  "result": {
+    "status": "done",
+    "summary": "round 2: 1 applied\n\nChanged the background and label to mint (#98ff98); lint, typecheck, and all tests pass with no JUnit failures.",
+    "usage": {
+      "turns": 6,
+      "costUsd": 0.023003
+    },
+    "facts": {
+      "applied": 1,
+      "dismissed": 0,
+      "asked": 0,
+      "merged": false,
+      "recheck": true
+    },
+    "decisions": [
+      {
+        "key": "comment-6401363812",
+        "action": "apply",
+        "justification": "Changed the page background to mint (#98ff98) and updated its matching label in apps/web/src/app/globals.css, as allowed by Scope In."
+      }
+    ]
+  }
+}

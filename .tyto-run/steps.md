@@ -16,3 +16,6 @@
 | flow/prepare | done | 429dfa90af53 | on tyto/51-demo-background-colour-ocean-blue (fetched (6aed03499cc9)), base e9e85008652b, run state restored from 2027dfffcabd |
 | flow/sync@2 | done | 429dfa90af53 | up to date with dev at e9e85008652b |
 | flow/ledger@2 | done | 429dfa90af53 | 1 item: 1 open. 1 open (1 required) |
+| flow/judge@2 | done | 429dfa90af53 | round 2: 1 applied
+
+Changed the background and label to mint (#98ff98); lint, typecheck, and all tests pass with no JUnit failures. |
