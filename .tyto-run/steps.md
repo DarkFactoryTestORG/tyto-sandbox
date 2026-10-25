@@ -7,3 +7,4 @@
 | flow/baseline | done | 16d399d83430 | baseline for e9e85008652b from the warmer: no failing test |
 | flow/smoke-edit | done | 16d399d83430 | Added an Unreleased changelog entry for smoke run 202610250845: happy path (#45). |
 | flow/pr-open | done | 16d399d83430 | draft PR open |
+| flow/sync | done | 16d399d83430 | up to date with dev at e9e85008652b |
