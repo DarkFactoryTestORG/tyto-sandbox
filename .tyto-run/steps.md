@@ -19,3 +19,5 @@
 | flow/judge@2 | done | 429dfa90af53 | round 2: 1 applied
 
 Changed the background and label to mint (#98ff98); lint, typecheck, and all tests pass with no JUnit failures. |
+| checkpoint/flow/judge@2/decisions | done | 429dfa90af53 | 1 decision(s) posted |
+| flow/ledger@3 | done | 429dfa90af53 | 1 item: 1 fixed. 0 open (0 required) |
