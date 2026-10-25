@@ -1,0 +1,17 @@
+{
+  "key": "flow/pr-open",
+  "seq": 5,
+  "specHash": "16d399d834306391ed99919f12e0bc07a4b70b50d13593e8d7e9c114a0496531",
+  "status": "done",
+  "summary": "draft PR open",
+  "result": {
+    "status": "done",
+    "summary": "draft PR open",
+    "pr": {
+      "target": "github",
+      "id": "46",
+      "url": "https://github.com/DarkFactoryTestORG/tyto-sandbox/pull/46",
+      "draft": true
+    }
+  }
+}
