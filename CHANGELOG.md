@@ -6,6 +6,8 @@ ending with the issue it closes, e.g. `- Tasks can be searched by title (#12)`. 
 
 ## Unreleased
 
+- Factory verification excludes generated run records from formatting (#41)
+
 - Supported ARM64 factory toolchains with verified native tool downloads (#35)
 
 - Workspace activity API with cursor paging and a person filter (#9)
