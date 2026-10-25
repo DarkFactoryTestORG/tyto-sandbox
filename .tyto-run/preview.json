@@ -1,7 +1,0 @@
-{
-  "sha": "52d543e5f6744d8c30a3a0294de18ae5a935d24f",
-  "url": "http://45-tyto-sandbox.localtest.me:8080/",
-  "wokeInMs": 74141,
-  "idleMinutes": 15,
-  "note": "Sign in to the preview with the shared credentials from Local verification shared credential.\n\nThen sign in to the app with a review account: [packages/db/seeds/review/README.md](https://github.com/DarkFactoryTestORG/tyto-sandbox/blob/52d543e5f6744d8c30a3a0294de18ae5a935d24f/packages/db/seeds/review/README.md).\n\nThe preview sleeps after 15 minutes without requests and wakes on the next one, in about 74 seconds (measured when this head started).\n\nIt serves `52d543e5f674`."
-}
