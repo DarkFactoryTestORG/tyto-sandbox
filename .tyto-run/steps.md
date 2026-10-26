@@ -16,3 +16,4 @@
 | flow/final-gates | done | 5403553ecdbe | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
 | flow/review-images | done | 5403553ecdbe | 2 review image(s) built for f15473b60304 |
 | flow/review-seed | done | 5403553ecdbe | database seeded with the review scenario review |
+| flow/preview | done | 5403553ecdbe | preview at http://103-tyto-sandbox.localtest.me:8080/ for f15473b60304 (started in 3.9 s) |
