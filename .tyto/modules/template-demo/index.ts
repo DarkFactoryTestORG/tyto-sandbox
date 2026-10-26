@@ -1,3 +1,4 @@
+import { readFileSync } from 'node:fs';
 // The demo issue template: pick a page background colour for Plotline's web app, so the change is
 // obvious in the preview, and a reviewer can ask for another colour on the PR (or the issue) to
 // watch a Judge round apply it. Sections: Summary, Background colour (both @core), Notes (optional,
@@ -191,6 +192,8 @@ export default defineModule({
     'Demo issue template: a page background colour for Plotline (a preset or a hex), visible in the preview',
   fixtures: { validIssue: VALID, invalidIssue: INVALID },
   create: () => ({
+    skeleton: () => readFileSync(new URL('./skeleton.md', import.meta.url), 'utf8'),
+    interview: () => readFileSync(new URL('./interview.md', import.meta.url), 'utf8'),
     form,
     lint(issue: RawIssue) {
       const { errors } = analyse(issue.body);

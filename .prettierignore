@@ -7,3 +7,8 @@ reports/
 dist/
 CHANGELOG.md
 .tyto-run/
+
+# Generated from TYTO modules; verified by tyto-code templates/skill --check.
+.github/ISSUE_TEMPLATE/
+.github/PULL_REQUEST_TEMPLATE/
+skills/factory-spec/
