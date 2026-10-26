@@ -76,4 +76,3 @@ Done when: the new entry passes the gates.
 | ID | Capture | Steps | Shows | Expected |
 |---|---|---|---|---|
 | E1 | test | The lint and format gates pass with the new entry | R1 | pass |
-
