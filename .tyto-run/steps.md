@@ -27,3 +27,4 @@ Resolved the changelog conflict preserving both entries; lint, typecheck, and al
 | flow/final-gates@2 | done | 6ba1b31efcdb | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
 | flow/review-images@2 | done | 6ba1b31efcdb | 2 review image(s) built for b380ee696cb5 |
 | flow/review-seed@2 | done | 6ba1b31efcdb | database seeded with the review scenario review |
+| flow/preview@2 | done | 6ba1b31efcdb | preview at http://96-tyto-sandbox.localtest.me:8080/ for b380ee696cb5 (started in 4.4 s) |
