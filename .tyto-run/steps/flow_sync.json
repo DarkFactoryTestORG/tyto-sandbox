@@ -1,0 +1,14 @@
+{
+  "key": "flow/sync",
+  "seq": 8,
+  "specHash": "6ba1b31efcdb999b68120ada4ac97f8cf39ac9d988cc86e2d2b8fe0a6de6770b",
+  "status": "done",
+  "summary": "up to date with dev at cf78b51ccbc8",
+  "result": {
+    "status": "done",
+    "summary": "up to date with dev at cf78b51ccbc8",
+    "facts": {
+      "conflicted": false
+    }
+  }
+}
