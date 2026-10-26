@@ -1,0 +1,20 @@
+{
+  "key": "flow/ledger@4",
+  "seq": 31,
+  "specHash": "6ba1b31efcdb999b68120ada4ac97f8cf39ac9d988cc86e2d2b8fe0a6de6770b",
+  "status": "done",
+  "summary": "3 items: 3 open. 3 open (3 required)",
+  "result": {
+    "status": "done",
+    "summary": "3 items: 3 open. 3 open (3 required)",
+    "report": {
+      "Ledger": "3 items: 3 open.\n\n| Source | Author | Item | State | Resolution |\n|---|---|---|---|---|\n| thread | @michaeltomlinsontuks | [Please use the past tense in this entry. (`CHANGELOG.md:9`)](https://github.com/DarkFactoryTestORG/tyto-sandbox/pull/97#discussion_r4382090182) | open |  |\n| thread | @michaeltomlinsontuks | [Also add a README section about the changelog. (`CHANGELOG.md:9`)](https://github.com/DarkFactoryTestORG/tyto-sandbox/pull/97#discussion_r4382090191) | open |  |\n| thread | @michaeltomlinsontuks | [Should this entry be written for end users or for developers? Nothing decides who the changelog is for: please check wi… (`CHANGELOG.md:9`)](https://github.com/DarkFactoryTestORG/tyto-sandbox/pull/97#discussion_r4382090197) | open |  |"
+    },
+    "facts": {
+      "open": 3,
+      "openRequired": 3,
+      "stalled": false,
+      "conflicted": false
+    }
+  }
+}

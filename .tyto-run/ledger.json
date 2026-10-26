@@ -4,9 +4,58 @@
     "number": 97,
     "url": "https://github.com/DarkFactoryTestORG/tyto-sandbox/pull/97"
   },
-  "headSha": "8bab412429ab38d71188ee35f1332ce11be5d266",
-  "updatedAt": "2026-10-26T20:25:14.393Z",
-  "items": [],
+  "headSha": "4c8a069aa263f6638c36c2b9ec7132da80d90823",
+  "updatedAt": "2026-10-26T20:27:50.062Z",
+  "items": [
+    {
+      "key": "thread-PRRT_kwDOVPlsoc6wcGF7",
+      "source": "thread",
+      "author": "michaeltomlinsontuks",
+      "url": "https://github.com/DarkFactoryTestORG/tyto-sandbox/pull/97#discussion_r4382090182",
+      "path": "CHANGELOG.md",
+      "line": 9,
+      "title": "Please use the past tense in this entry.",
+      "body": "@michaeltomlinsontuks: Please use the past tense in this entry.",
+      "headSha": "4c8a069aa263f6638c36c2b9ec7132da80d90823",
+      "thread": "PRRT_kwDOVPlsoc6wcGF7",
+      "version": "1",
+      "state": "open",
+      "firstSeen": "2026-10-26T20:27:50.062Z",
+      "lastSeen": "2026-10-26T20:27:50.062Z"
+    },
+    {
+      "key": "thread-PRRT_kwDOVPlsoc6wcGGA",
+      "source": "thread",
+      "author": "michaeltomlinsontuks",
+      "url": "https://github.com/DarkFactoryTestORG/tyto-sandbox/pull/97#discussion_r4382090191",
+      "path": "CHANGELOG.md",
+      "line": 9,
+      "title": "Also add a README section about the changelog.",
+      "body": "@michaeltomlinsontuks: Also add a README section about the changelog.",
+      "headSha": "4c8a069aa263f6638c36c2b9ec7132da80d90823",
+      "thread": "PRRT_kwDOVPlsoc6wcGGA",
+      "version": "1",
+      "state": "open",
+      "firstSeen": "2026-10-26T20:27:50.062Z",
+      "lastSeen": "2026-10-26T20:27:50.062Z"
+    },
+    {
+      "key": "thread-PRRT_kwDOVPlsoc6wcGGF",
+      "source": "thread",
+      "author": "michaeltomlinsontuks",
+      "url": "https://github.com/DarkFactoryTestORG/tyto-sandbox/pull/97#discussion_r4382090197",
+      "path": "CHANGELOG.md",
+      "line": 9,
+      "title": "Should this entry be written for end users or for developers? Nothing decides who the changelog is for: please check with the issue owner.",
+      "body": "@michaeltomlinsontuks: Should this entry be written for end users or for developers? Nothing decides who the changelog is for: please check with the issue owner.",
+      "headSha": "4c8a069aa263f6638c36c2b9ec7132da80d90823",
+      "thread": "PRRT_kwDOVPlsoc6wcGGF",
+      "version": "1",
+      "state": "open",
+      "firstSeen": "2026-10-26T20:27:50.062Z",
+      "lastSeen": "2026-10-26T20:27:50.062Z"
+    }
+  ],
   "decided": [],
   "stalled": false
 }
