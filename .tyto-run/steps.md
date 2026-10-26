@@ -11,3 +11,5 @@
 | flow/pr-open | done | 2c1d5719a25f | draft PR open |
 | flow/sync | done | 2c1d5719a25f | up to date with dev at 2ea4119c61b8 |
 | flow/ledger | done | 2c1d5719a25f | No feedback. 0 open (0 required) |
+| flow/judge | skipped | 2c1d5719a25f | skipped: steps.ledger.open > 0 \|\| steps.ledger.conflicted is false |
+| flow/final-gates | done | 2c1d5719a25f | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
