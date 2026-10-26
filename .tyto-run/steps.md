@@ -16,3 +16,4 @@
 | flow/review-images | done | 52eb39a66234 | 2 review image(s) built for 3c71ce5898cc |
 | flow/review-seed | done | 52eb39a66234 | database seeded with the review scenario review |
 | flow/preview | done | 52eb39a66234 | preview at http://101-tyto-sandbox.localtest.me:8080/ for 3c71ce5898cc (started in 4.7 s) |
+| flow/smoke-evidence | done | 52eb39a66234 | Captured E1: http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/101/ca6fcf619f20eec83f96f3a7673fc73aaffa4514/E1/smoke-lint.txt |
