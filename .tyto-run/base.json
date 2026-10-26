@@ -1,0 +1,7 @@
+{
+  "baseSha": "2ea4119c61b81588713c825853cc8d9ecc03a57a",
+  "baseBranch": "dev",
+  "devHead": "2ea4119c61b81588713c825853cc8d9ecc03a57a",
+  "image": "registry.tyto-system.svc:5000/darkfactorytestorg/tyto-sandbox/issue:2ea4119c61b81588713c825853cc8d9ecc03a57a-719e76dfa621",
+  "snapshot": "bcc004201db09d74ed23f81bd98560e1e9284c645911bed4499a4452b3bcb9cf"
+}
