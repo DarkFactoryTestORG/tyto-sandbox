@@ -4,8 +4,8 @@
     "number": 102,
     "url": "https://github.com/DarkFactoryTestORG/tyto-sandbox/pull/102"
   },
-  "headSha": "a70e09674cbd3337ad751ad12b6dab1d45c94d21",
-  "updatedAt": "2026-10-26T20:53:35.025Z",
+  "headSha": "531c6c3f3c77e499799805a0977c87b8ef6b547f",
+  "updatedAt": "2026-10-26T20:58:53.208Z",
   "items": [
     {
       "key": "thread-PRRT_kwDOVPlsoc6wcp4I",
@@ -16,12 +16,16 @@
       "line": 9,
       "title": "Please use the past tense in this entry.",
       "body": "@michaeltomlinsontuks: Please use the past tense in this entry.",
-      "headSha": "a70e09674cbd3337ad751ad12b6dab1d45c94d21",
+      "headSha": "531c6c3f3c77e499799805a0977c87b8ef6b547f",
       "thread": "PRRT_kwDOVPlsoc6wcp4I",
       "version": "1",
-      "state": "open",
+      "state": "fixed",
+      "resolution": {
+        "by": "judge",
+        "commit": "531c6c3f3c77e499799805a0977c87b8ef6b547f"
+      },
       "firstSeen": "2026-10-26T20:53:35.025Z",
-      "lastSeen": "2026-10-26T20:53:35.025Z"
+      "lastSeen": "2026-10-26T20:58:53.208Z"
     },
     {
       "key": "thread-PRRT_kwDOVPlsoc6wcp4Q",
@@ -32,12 +36,16 @@
       "line": 9,
       "title": "Also add a README section about the changelog.",
       "body": "@michaeltomlinsontuks: Also add a README section about the changelog.",
-      "headSha": "a70e09674cbd3337ad751ad12b6dab1d45c94d21",
+      "headSha": "531c6c3f3c77e499799805a0977c87b8ef6b547f",
       "thread": "PRRT_kwDOVPlsoc6wcp4Q",
       "version": "1",
-      "state": "open",
+      "state": "dismissed",
+      "resolution": {
+        "by": "judge",
+        "justification": "Scope explicitly marks “any other file, including the README” Out; please propose README documentation in a follow-up issue."
+      },
       "firstSeen": "2026-10-26T20:53:35.025Z",
-      "lastSeen": "2026-10-26T20:53:35.025Z"
+      "lastSeen": "2026-10-26T20:58:53.208Z"
     },
     {
       "key": "thread-PRRT_kwDOVPlsoc6wcp4T",
@@ -48,12 +56,29 @@
       "line": 9,
       "title": "The issue owner must confirm the exact wording of this entry before it merges. Please ask them whether to keep it as it is.",
       "body": "@michaeltomlinsontuks: The issue owner must confirm the exact wording of this entry before it merges. Please ask them whether to keep it as it is.",
-      "headSha": "a70e09674cbd3337ad751ad12b6dab1d45c94d21",
+      "headSha": "531c6c3f3c77e499799805a0977c87b8ef6b547f",
       "thread": "PRRT_kwDOVPlsoc6wcp4T",
       "version": "1",
-      "state": "open",
+      "state": "dismissed",
+      "resolution": {
+        "by": "judge",
+        "justification": "Asked the owner for explicit wording approval; the owner answered “skip it”, so no further approval step is required."
+      },
       "firstSeen": "2026-10-26T20:53:35.025Z",
-      "lastSeen": "2026-10-26T20:53:35.025Z"
+      "lastSeen": "2026-10-26T20:58:53.208Z"
+    },
+    {
+      "key": "issue-comment-6427089543",
+      "source": "comment",
+      "author": "michaeltomlinsontuks",
+      "url": "https://github.com/DarkFactoryTestORG/tyto-sandbox/issues/101#issuecomment-6427089543",
+      "title": "on the issue: skip it",
+      "body": "skip it",
+      "headSha": "531c6c3f3c77e499799805a0977c87b8ef6b547f",
+      "version": "f67f45f654fe",
+      "state": "open",
+      "firstSeen": "2026-10-26T20:58:53.208Z",
+      "lastSeen": "2026-10-26T20:58:53.208Z"
     }
   ],
   "decided": [],

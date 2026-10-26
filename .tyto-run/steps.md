@@ -32,3 +32,5 @@ Resolved the changelog merge conflict preserving both entries; lint, typecheck, 
 | flow/judge@3 | done | 52eb39a66234 | round 3: 1 applied, 2 dismissed
 
 Updated the entry to past tense, dismissed README work as out of scope, and honored the owner's request to skip approval; all gates pass. |
+| checkpoint/flow/judge@3/decisions | done | 52eb39a66234 | 3 decision(s) posted |
+| flow/ledger@5 | done | 52eb39a66234 | 4 items: 1 open, 1 fixed, 2 dismissed. 1 open (1 required) |
