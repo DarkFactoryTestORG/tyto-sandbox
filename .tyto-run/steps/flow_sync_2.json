@@ -1,0 +1,14 @@
+{
+  "key": "flow/sync@2",
+  "seq": 18,
+  "specHash": "52eb39a66234c7e9aea5d62754d752700165735b238c0f812d19bfe652d2fb80",
+  "status": "done",
+  "summary": "merging dev at 374e7072ff30 conflicts in 1 path(s): CHANGELOG.md",
+  "result": {
+    "status": "done",
+    "summary": "merging dev at 374e7072ff30 conflicts in 1 path(s): CHANGELOG.md",
+    "facts": {
+      "conflicted": true
+    }
+  }
+}
