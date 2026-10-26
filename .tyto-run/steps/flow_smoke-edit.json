@@ -1,0 +1,18 @@
+{
+  "key": "flow/smoke-edit",
+  "seq": 4,
+  "specHash": "e2922e6fe22595b59335b418552c30cf4a6597f8c1792a7742d4caab0eda9c9a",
+  "status": "done",
+  "summary": "Added one Unreleased changelog entry for smoke run 202610261008: happy path (#62).",
+  "result": {
+    "status": "done",
+    "summary": "Added one Unreleased changelog entry for smoke run 202610261008: happy path (#62).",
+    "covers": [
+      "R1"
+    ],
+    "usage": {
+      "turns": 8,
+      "costUsd": 0.033286
+    }
+  }
+}
