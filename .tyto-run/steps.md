@@ -9,3 +9,5 @@
 | flow/pr-open | done | 510cac55c41b | draft PR open |
 | flow/sync | done | 510cac55c41b | up to date with dev at 73aa23a7a2c4 |
 | flow/ledger | done | 510cac55c41b | No feedback. 0 open (0 required) |
+| flow/judge | skipped | 510cac55c41b | skipped: steps.ledger.open > 0 \|\| steps.ledger.conflicted is false |
+| flow/final-gates | done | 510cac55c41b | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
