@@ -1,0 +1,11 @@
+{
+  "key": "flow/baseline",
+  "seq": 4,
+  "specHash": "5403553ecdbef34fe3cbae317b0f23abad658d187eb7b2cf7c0cab1fd16c02c0",
+  "status": "done",
+  "summary": "baseline for 606dfb0efc97 from the warmer: no failing test",
+  "result": {
+    "status": "done",
+    "summary": "baseline for 606dfb0efc97 from the warmer: no failing test"
+  }
+}
