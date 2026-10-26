@@ -1,2 +1,0 @@
-{"type":"run-start","ts":"2026-10-26T08:59:24.485Z","attempt":1}
-{"ts":"2026-10-26T09:00:06.103Z","runId":"DarkFactoryTestORG/tyto-sandbox#55/attempt-1","step":"flow/demo-colour","brick":"demo-colour","role":"Implementer","tier":"low","provider":"openai-codex","model":"gpt-6.1-sol","session":"01a1776f-c13b-707e-bc47-b542ba142267","stop":"tool","turns":3,"inputTokens":8045,"outputTokens":264,"cacheReadTokens":2304,"cacheWriteTokens":0,"costUsd":0.01896,"costSource":"harness"}
