@@ -4,8 +4,8 @@
     "number": 97,
     "url": "https://github.com/DarkFactoryTestORG/tyto-sandbox/pull/97"
   },
-  "headSha": "4c8a069aa263f6638c36c2b9ec7132da80d90823",
-  "updatedAt": "2026-10-26T20:27:50.062Z",
+  "headSha": "1fbfb7a947f0a381e8cc085fa95cc1b8c8af6c7e",
+  "updatedAt": "2026-10-26T20:29:39.055Z",
   "items": [
     {
       "key": "thread-PRRT_kwDOVPlsoc6wcGF7",
@@ -16,12 +16,16 @@
       "line": 9,
       "title": "Please use the past tense in this entry.",
       "body": "@michaeltomlinsontuks: Please use the past tense in this entry.",
-      "headSha": "4c8a069aa263f6638c36c2b9ec7132da80d90823",
+      "headSha": "1fbfb7a947f0a381e8cc085fa95cc1b8c8af6c7e",
       "thread": "PRRT_kwDOVPlsoc6wcGF7",
       "version": "1",
-      "state": "open",
+      "state": "fixed",
+      "resolution": {
+        "by": "judge",
+        "commit": "1fbfb7a947f0a381e8cc085fa95cc1b8c8af6c7e"
+      },
       "firstSeen": "2026-10-26T20:27:50.062Z",
-      "lastSeen": "2026-10-26T20:27:50.062Z"
+      "lastSeen": "2026-10-26T20:29:39.055Z"
     },
     {
       "key": "thread-PRRT_kwDOVPlsoc6wcGGA",
@@ -32,12 +36,16 @@
       "line": 9,
       "title": "Also add a README section about the changelog.",
       "body": "@michaeltomlinsontuks: Also add a README section about the changelog.",
-      "headSha": "4c8a069aa263f6638c36c2b9ec7132da80d90823",
+      "headSha": "1fbfb7a947f0a381e8cc085fa95cc1b8c8af6c7e",
       "thread": "PRRT_kwDOVPlsoc6wcGGA",
       "version": "1",
-      "state": "open",
+      "state": "dismissed",
+      "resolution": {
+        "by": "judge",
+        "justification": "Scope explicitly says “Out: any other file, including the README”; please open a follow-up issue for a README section about the changelog."
+      },
       "firstSeen": "2026-10-26T20:27:50.062Z",
-      "lastSeen": "2026-10-26T20:27:50.062Z"
+      "lastSeen": "2026-10-26T20:29:39.055Z"
     },
     {
       "key": "thread-PRRT_kwDOVPlsoc6wcGGF",
@@ -48,12 +56,16 @@
       "line": 9,
       "title": "Should this entry be written for end users or for developers? Nothing decides who the changelog is for: please check with the issue owner.",
       "body": "@michaeltomlinsontuks: Should this entry be written for end users or for developers? Nothing decides who the changelog is for: please check with the issue owner.",
-      "headSha": "4c8a069aa263f6638c36c2b9ec7132da80d90823",
+      "headSha": "1fbfb7a947f0a381e8cc085fa95cc1b8c8af6c7e",
       "thread": "PRRT_kwDOVPlsoc6wcGGF",
       "version": "1",
-      "state": "open",
+      "state": "dismissed",
+      "resolution": {
+        "by": "judge",
+        "justification": "The existing CHANGELOG.md introduction already specifies the audience: “what changed, for a user”; this entry follows that established end-user convention."
+      },
       "firstSeen": "2026-10-26T20:27:50.062Z",
-      "lastSeen": "2026-10-26T20:27:50.062Z"
+      "lastSeen": "2026-10-26T20:29:39.055Z"
     }
   ],
   "decided": [],
