@@ -1,0 +1,11 @@
+{
+  "key": "flow/prepare",
+  "seq": 1,
+  "specHash": "a000def058dc83a1d002b55351ed6e3e786293430cb2c6523483d062ddd61e50",
+  "status": "done",
+  "summary": "on tyto/64-smoke-cache-poisoning-202610261008 (created at the base), base 73aa23a7a2c4",
+  "result": {
+    "status": "done",
+    "summary": "on tyto/64-smoke-cache-poisoning-202610261008 (created at the base), base 73aa23a7a2c4"
+  }
+}
