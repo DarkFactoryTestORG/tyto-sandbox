@@ -19,7 +19,6 @@
 
 Resolved the changelog conflict preserving both entries; lint, typecheck, tests and changelog formatting pass. |
 | flow/ledger@3 | done | a9fec7e354ef | No feedback. 0 open (0 required) |
-| flow/judge@3 | skipped | a9fec7e354ef | skipped: steps.ledger.open > 0 \|\| steps.ledger.conflicted is false |
 | flow/final-gates@2 | done | a9fec7e354ef | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
 | flow/review-images@2 | done | a9fec7e354ef | 2 review image(s) built for 20018014f887 |
 | flow/review-seed@2 | done | a9fec7e354ef | database seeded with the review scenario review |
@@ -29,3 +28,6 @@ Resolved the changelog conflict preserving both entries; lint, typecheck, tests 
 | flow/dev-servers | done | a9fec7e354ef | ready: api http://127.0.0.1:4000, web http://127.0.0.1:3000 |
 | flow/sync@3 | done | a9fec7e354ef | up to date with dev at cf78b51ccbc8 |
 | flow/ledger@4 | done | a9fec7e354ef | 3 items: 3 open. 3 open (3 required) |
+| flow/judge@3 | done | a9fec7e354ef | round 3: 1 applied, 2 dismissed
+
+Updated the new entry to past tense, dismissed two out-of-scope requests, and verified lint, typecheck, tests and formatting pass. |
