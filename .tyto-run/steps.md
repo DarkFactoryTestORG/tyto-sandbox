@@ -8,3 +8,4 @@
 | flow/demo-colour | done | 947db087f867 | Background set to #b39ddb (Lavender), with matching visible label; lint and format checks pass. |
 | flow/pr-open | done | 947db087f867 | draft PR open |
 | flow/sync | done | 947db087f867 | up to date with dev at 8b530722c478 |
+| flow/ledger | done | 947db087f867 | No feedback. 0 open (0 required) |

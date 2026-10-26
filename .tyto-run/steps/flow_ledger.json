@@ -1,0 +1,20 @@
+{
+  "key": "flow/ledger",
+  "seq": 7,
+  "specHash": "947db087f86736fc1e58aa98110e970e56725d4646220d8d8def538346ae2593",
+  "status": "done",
+  "summary": "No feedback. 0 open (0 required)",
+  "result": {
+    "status": "done",
+    "summary": "No feedback. 0 open (0 required)",
+    "report": {
+      "Ledger": "No feedback."
+    },
+    "facts": {
+      "open": 0,
+      "openRequired": 0,
+      "stalled": false,
+      "conflicted": false
+    }
+  }
+}
