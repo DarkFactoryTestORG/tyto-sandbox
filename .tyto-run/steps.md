@@ -10,3 +10,4 @@
 | flow/smoke-check | done | 46da4bb00775 | Verified the one-line changelog entry matches the Summary; no correction needed, and formatting passes. |
 | flow/pr-open | done | 46da4bb00775 | draft PR open |
 | flow/sync | done | 46da4bb00775 | up to date with dev at 2ea4119c61b8 |
+| flow/ledger | done | 46da4bb00775 | No feedback. 0 open (0 required) |
