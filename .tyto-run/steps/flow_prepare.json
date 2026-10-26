@@ -1,0 +1,11 @@
+{
+  "key": "flow/prepare",
+  "seq": 1,
+  "specHash": "9abb46564867477a6d2df1768f7a61123654610b3a27e32de6a7bda9889cb72b",
+  "status": "done",
+  "summary": "on tyto/67-smoke-happy-path-202610261440 (created at the base), base 73aa23a7a2c4",
+  "result": {
+    "status": "done",
+    "summary": "on tyto/67-smoke-happy-path-202610261440 (created at the base), base 73aa23a7a2c4"
+  }
+}
