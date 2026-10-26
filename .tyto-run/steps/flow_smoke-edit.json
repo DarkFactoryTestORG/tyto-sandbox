@@ -1,0 +1,18 @@
+{
+  "key": "flow/smoke-edit",
+  "seq": 7,
+  "specHash": "9acda9425cb8c69e4cccf0befe55c3ae5ef6f33cad3ab5c4ae5b7855b4efdbe6",
+  "status": "done",
+  "summary": "Added an Unreleased entry for smoke run 202610261513: recovery (#79).",
+  "result": {
+    "status": "done",
+    "summary": "Added an Unreleased entry for smoke run 202610261513: recovery (#79).",
+    "covers": [
+      "R1"
+    ],
+    "usage": {
+      "turns": 6,
+      "costUsd": 0.025819
+    }
+  }
+}
