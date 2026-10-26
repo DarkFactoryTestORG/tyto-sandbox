@@ -11,3 +11,4 @@
 | flow/smoke-check | done | a66487ef64b4 | Verified the one-line entry matches the Summary; no correction needed, and format passes. |
 | flow/pr-open | done | a66487ef64b4 | draft PR open |
 | flow/sync | done | a66487ef64b4 | up to date with dev at cf78b51ccbc8 |
+| flow/ledger | done | a66487ef64b4 | No feedback. 0 open (0 required) |
