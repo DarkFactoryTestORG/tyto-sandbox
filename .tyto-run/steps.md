@@ -11,3 +11,5 @@
 | flow/pr-open | done | f85106d42585 | draft PR open |
 | flow/sync | done | f85106d42585 | up to date with dev at 8c29b27bf550 |
 | flow/ledger | done | f85106d42585 | No feedback. 0 open (0 required) |
+| flow/judge | skipped | f85106d42585 | skipped: steps.ledger.open > 0 \|\| steps.ledger.conflicted is false |
+| flow/final-gates | done | f85106d42585 | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
