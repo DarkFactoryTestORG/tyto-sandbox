@@ -2,9 +2,7 @@
 
 | Step | Status | Spec | Summary |
 |---|---|---|---|
-| flow/prepare | done | 52eb39a66234 | on tyto/101-smoke-happy-path-202610262037 (created at the base), base 606dfb0efc97 |
 | flow/seed | done | 52eb39a66234 | database reset to the base snapshot |
-| flow/dev-servers | done | 52eb39a66234 | ready: api http://127.0.0.1:4000, web http://127.0.0.1:3000 |
 | flow/baseline | done | 52eb39a66234 | baseline for 606dfb0efc97 from the warmer: no failing test |
 | flow/smoke-edit | done | 52eb39a66234 | Added one Unreleased entry for smoke run 202610262037: happy path (#101). |
 | flow/smoke-check | done | 52eb39a66234 | Verified the one-line changelog entry matches the Summary; no correction needed, and formatting passes. |
@@ -17,3 +15,4 @@
 | flow/review-seed | done | 52eb39a66234 | database seeded with the review scenario review |
 | flow/preview | done | 52eb39a66234 | preview at http://101-tyto-sandbox.localtest.me:8080/ for 3c71ce5898cc (started in 4.7 s) |
 | flow/smoke-evidence | done | 52eb39a66234 | Captured E1: http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/101/ca6fcf619f20eec83f96f3a7673fc73aaffa4514/E1/smoke-lint.txt |
+| flow/prepare | done | 52eb39a66234 | on tyto/101-smoke-happy-path-202610262037 (fetched (cfbdbdee8ec5)), base 374e7072ff30, run state restored from 867e7aa64924 |
