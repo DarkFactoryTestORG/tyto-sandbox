@@ -1,0 +1,18 @@
+{
+  "key": "flow/smoke-edit",
+  "seq": 4,
+  "specHash": "a000def058dc83a1d002b55351ed6e3e786293430cb2c6523483d062ddd61e50",
+  "status": "done",
+  "summary": "Added an Unreleased changelog entry for smoke run 202610261008: cache poisoning (#64).",
+  "result": {
+    "status": "done",
+    "summary": "Added an Unreleased changelog entry for smoke run 202610261008: cache poisoning (#64).",
+    "covers": [
+      "R1"
+    ],
+    "usage": {
+      "turns": 6,
+      "costUsd": 0.030056
+    }
+  }
+}
