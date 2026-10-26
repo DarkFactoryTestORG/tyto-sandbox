@@ -11,3 +11,5 @@
 | flow/pr-open | done | a9fec7e354ef | draft PR open |
 | flow/sync | done | a9fec7e354ef | up to date with dev at 2ea4119c61b8 |
 | flow/ledger | done | a9fec7e354ef | No feedback. 0 open (0 required) |
+| flow/judge | skipped | a9fec7e354ef | skipped: steps.ledger.open > 0 \|\| steps.ledger.conflicted is false |
+| flow/final-gates | done | a9fec7e354ef | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
