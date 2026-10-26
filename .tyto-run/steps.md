@@ -10,3 +10,4 @@
 | flow/smoke-check | done | a9fec7e354ef | Verified the one-line entry matches the Summary; no correction needed, and format checks pass. |
 | flow/pr-open | done | a9fec7e354ef | draft PR open |
 | flow/sync | done | a9fec7e354ef | up to date with dev at 2ea4119c61b8 |
+| flow/ledger | done | a9fec7e354ef | No feedback. 0 open (0 required) |
