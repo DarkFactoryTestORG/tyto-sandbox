@@ -1,0 +1,10 @@
+id: evidence-log-smoke-studio
+version: 0.1.0
+scope: library
+description: Command log evidence
+evidence: { capture: log }
+has: evidenceLog
+needs: []
+instructions: { smoke-edit: implement.md }
+
+pr: { section: Logs }
