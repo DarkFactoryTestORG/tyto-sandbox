@@ -5,7 +5,7 @@
     "url": "https://github.com/DarkFactoryTestORG/tyto-sandbox/pull/102"
   },
   "headSha": "531c6c3f3c77e499799805a0977c87b8ef6b547f",
-  "updatedAt": "2026-10-26T20:58:53.208Z",
+  "updatedAt": "2026-10-26T20:59:20.275Z",
   "items": [
     {
       "key": "thread-PRRT_kwDOVPlsoc6wcp4I",
@@ -76,11 +76,17 @@
       "body": "skip it",
       "headSha": "531c6c3f3c77e499799805a0977c87b8ef6b547f",
       "version": "f67f45f654fe",
-      "state": "open",
+      "state": "dismissed",
       "firstSeen": "2026-10-26T20:58:53.208Z",
-      "lastSeen": "2026-10-26T20:58:53.208Z"
+      "lastSeen": "2026-10-26T20:59:20.275Z",
+      "resolution": {
+        "by": "judge",
+        "justification": "Acknowledged as the answer to the earlier wording-approval question; no additional code change is requested."
+      }
     }
   ],
-  "decided": [],
+  "decided": [
+    "issue-comment-6427089543"
+  ],
   "stalled": false
 }
