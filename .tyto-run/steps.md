@@ -16,3 +16,4 @@
 | flow/review-images | done | f85106d42585 | 2 review image(s) built for e0861efccadf |
 | flow/review-seed | done | f85106d42585 | database seeded with the review scenario review |
 | flow/preview | done | f85106d42585 | preview at http://75-tyto-sandbox.localtest.me:8080/ for e0861efccadf (started in 5.0 s) |
+| flow/smoke-evidence | done | f85106d42585 | evidence disabled in factory.yaml |
