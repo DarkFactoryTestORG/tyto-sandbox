@@ -13,3 +13,4 @@
 | flow/final-gates | done | 510cac55c41b | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
 | flow/review-images | done | 510cac55c41b | 2 review image(s) built for 3b63dda053de |
 | flow/review-seed | done | 510cac55c41b | database seeded with the review scenario review |
+| flow/preview | done | 510cac55c41b | preview at http://58-tyto-sandbox.localtest.me:8080/ for 3b63dda053de (started in 4.4 s) |
