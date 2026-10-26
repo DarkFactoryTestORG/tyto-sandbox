@@ -31,5 +31,16 @@
     "sha256": "8a54f756b4d67f39beb184387a245399d701bf69d3388a1b3fb8a305feff991b",
     "bytes": 7691,
     "step": "flow/smoke-evidence"
+  },
+  {
+    "id": "E1",
+    "kind": "log",
+    "caption": "Lint gate output for the delivered code",
+    "sha": "ff4d9e99fd879d8e55d7dac9fbf411ce02beacc1",
+    "key": "DarkFactoryTestORG/tyto-sandbox/89/ff4d9e99fd879d8e55d7dac9fbf411ce02beacc1/E1/smoke-lint.txt",
+    "url": "http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/89/ff4d9e99fd879d8e55d7dac9fbf411ce02beacc1/E1/smoke-lint.txt",
+    "sha256": "7962cc570dd2e298d8969efbb1743f0b6eb82147d24520f31dfdd9070b9feb51",
+    "bytes": 7749,
+    "step": "flow/smoke-evidence@2"
   }
 ]

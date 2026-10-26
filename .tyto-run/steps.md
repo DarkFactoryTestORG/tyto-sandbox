@@ -28,3 +28,4 @@ Resolved the changelog conflict preserving both entries; lint, typecheck, tests 
 | flow/review-images@2 | done | a9fec7e354ef | 2 review image(s) built for 20018014f887 |
 | flow/review-seed@2 | done | a9fec7e354ef | database seeded with the review scenario review |
 | flow/preview@2 | done | a9fec7e354ef | preview at http://89-tyto-sandbox.localtest.me:8080/ for 20018014f887 (started in 4.4 s) |
+| flow/smoke-evidence@2 | done | a9fec7e354ef | Captured E1: http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/89/ff4d9e99fd879d8e55d7dac9fbf411ce02beacc1/E1/smoke-lint.txt |
