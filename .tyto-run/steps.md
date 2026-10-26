@@ -6,3 +6,4 @@
 | flow/seed | done | 9abb46564867 | database reset to the base snapshot |
 | flow/dev-servers | done | 9abb46564867 | no apps.<name>.dev in the repo config: nothing to start |
 | flow/baseline | done | 9abb46564867 | baseline for 73aa23a7a2c4 from the warmer: no failing test |
+| flow/smoke-edit | done | 9abb46564867 | Added an Unreleased changelog entry for smoke run 202610261440’s happy path (#67). |
