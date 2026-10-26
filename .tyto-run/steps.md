@@ -15,3 +15,4 @@
 | flow/final-gates | done | 9acda9425cb8 | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
 | flow/review-images | done | 9acda9425cb8 | 2 review image(s) built for 074fef7d37ea |
 | flow/review-seed | done | 9acda9425cb8 | database seeded with the review scenario review |
+| flow/preview | done | 9acda9425cb8 | preview at http://79-tyto-sandbox.localtest.me:8080/ for 074fef7d37ea (started in 4.3 s) |
