@@ -10,3 +10,4 @@
 | flow/smoke-check | done | 2c1d5719a25f | Verified the one-line entry matches the Summary; no correction needed, and formatting passes. |
 | flow/pr-open | done | 2c1d5719a25f | draft PR open |
 | flow/sync | done | 2c1d5719a25f | up to date with dev at 2ea4119c61b8 |
+| flow/ledger | done | 2c1d5719a25f | No feedback. 0 open (0 required) |
