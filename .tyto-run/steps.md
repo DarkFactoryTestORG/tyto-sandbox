@@ -8,3 +8,4 @@
 | flow/dev-servers | done | 2c1d5719a25f | ready: api http://127.0.0.1:4000, web http://127.0.0.1:3000 |
 | flow/smoke-edit | done | 2c1d5719a25f | Added a concise Unreleased entry for clarification smoke run 202610261929 (#91). |
 | flow/smoke-check | done | 2c1d5719a25f | Verified the one-line entry matches the Summary; no correction needed, and formatting passes. |
+| flow/pr-open | done | 2c1d5719a25f | draft PR open |
