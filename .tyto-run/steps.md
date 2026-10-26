@@ -12,3 +12,4 @@
 | flow/judge | skipped | 510cac55c41b | skipped: steps.ledger.open > 0 \|\| steps.ledger.conflicted is false |
 | flow/final-gates | done | 510cac55c41b | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
 | flow/review-images | done | 510cac55c41b | 2 review image(s) built for 3b63dda053de |
+| flow/review-seed | done | 510cac55c41b | database seeded with the review scenario review |

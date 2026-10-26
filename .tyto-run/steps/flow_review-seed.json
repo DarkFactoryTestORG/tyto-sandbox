@@ -1,0 +1,14 @@
+{
+  "key": "flow/review-seed",
+  "seq": 11,
+  "specHash": "510cac55c41b7a156b6ce43116d8e026fe50151e9df8e0a59ef2d1789f63c491",
+  "status": "done",
+  "summary": "database seeded with the review scenario review",
+  "result": {
+    "status": "done",
+    "summary": "database seeded with the review scenario review",
+    "report": {
+      "Review data": "The preview's database holds the `review` seed. Accounts to sign in with: `packages/db/seeds/review/README.md`."
+    }
+  }
+}
