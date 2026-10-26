@@ -6,6 +6,7 @@ ending with the issue it closes, e.g. `- Tasks can be searched by title (#12)`. 
 
 ## Unreleased
 
+- Clarification smoke run (#77)
 - Factory verification excludes generated run records from formatting (#41)
 
 - Supported ARM64 factory toolchains with verified native tool downloads (#35)
