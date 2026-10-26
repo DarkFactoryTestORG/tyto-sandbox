@@ -1,0 +1,11 @@
+{
+  "key": "flow/final-gates",
+  "seq": 9,
+  "specHash": "e2922e6fe22595b59335b418552c30cf4a6597f8c1792a7742d4caab0eda9c9a",
+  "status": "done",
+  "summary": "4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all",
+  "result": {
+    "status": "done",
+    "summary": "4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all"
+  }
+}
