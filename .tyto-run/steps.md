@@ -10,3 +10,4 @@
 | flow/smoke-check | done | 9acda9425cb8 | Verified the one-line entry matches the Summary; no correction needed, and format checks pass. |
 | flow/pr-open | done | 9acda9425cb8 | draft PR open |
 | flow/sync | done | 9acda9425cb8 | up to date with dev at 8c29b27bf550 |
+| flow/ledger | done | 9acda9425cb8 | No feedback. 0 open (0 required) |
