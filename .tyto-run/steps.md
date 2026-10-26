@@ -11,3 +11,5 @@
 | flow/pr-open | done | 52eb39a66234 | draft PR open |
 | flow/sync | done | 52eb39a66234 | up to date with dev at 606dfb0efc97 |
 | flow/ledger | done | 52eb39a66234 | No feedback. 0 open (0 required) |
+| flow/judge | skipped | 52eb39a66234 | skipped: steps.ledger.open > 0 \|\| steps.ledger.conflicted is false |
+| flow/final-gates | done | 52eb39a66234 | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
