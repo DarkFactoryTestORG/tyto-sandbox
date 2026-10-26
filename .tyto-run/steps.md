@@ -28,3 +28,4 @@ Resolved the changelog conflict preserving both entries; lint, typecheck, tests 
 | flow/prepare | done | a9fec7e354ef | on tyto/89-smoke-happy-path-202610261929 (fetched (ff4fd9485c07)), base cf78b51ccbc8, run state restored from abfcc5cea9f2 |
 | flow/dev-servers | done | a9fec7e354ef | ready: api http://127.0.0.1:4000, web http://127.0.0.1:3000 |
 | flow/sync@3 | done | a9fec7e354ef | up to date with dev at cf78b51ccbc8 |
+| flow/ledger@4 | done | a9fec7e354ef | 3 items: 3 open. 3 open (3 required) |

@@ -4,9 +4,58 @@
     "number": 90,
     "url": "https://github.com/DarkFactoryTestORG/tyto-sandbox/pull/90"
   },
-  "headSha": "835ceb4c8c032cb507251c2d9ecabcfa017a7e31",
-  "updatedAt": "2026-10-26T19:47:27.020Z",
-  "items": [],
+  "headSha": "0f1ab7323878dfcf5ae0a97487cbe79e5bcd4cc1",
+  "updatedAt": "2026-10-26T19:50:08.108Z",
+  "items": [
+    {
+      "key": "thread-PRRT_kwDOVPlsoc6wbRuR",
+      "source": "thread",
+      "author": "michaeltomlinsontuks",
+      "url": "https://github.com/DarkFactoryTestORG/tyto-sandbox/pull/90#discussion_r4381742335",
+      "path": "CHANGELOG.md",
+      "line": 9,
+      "title": "Please use the past tense in this entry.",
+      "body": "@michaeltomlinsontuks: Please use the past tense in this entry.",
+      "headSha": "0f1ab7323878dfcf5ae0a97487cbe79e5bcd4cc1",
+      "thread": "PRRT_kwDOVPlsoc6wbRuR",
+      "version": "1",
+      "state": "open",
+      "firstSeen": "2026-10-26T19:50:08.108Z",
+      "lastSeen": "2026-10-26T19:50:08.108Z"
+    },
+    {
+      "key": "thread-PRRT_kwDOVPlsoc6wbRuY",
+      "source": "thread",
+      "author": "michaeltomlinsontuks",
+      "url": "https://github.com/DarkFactoryTestORG/tyto-sandbox/pull/90#discussion_r4381742348",
+      "path": "CHANGELOG.md",
+      "line": 9,
+      "title": "Also add a README section about the changelog.",
+      "body": "@michaeltomlinsontuks: Also add a README section about the changelog.",
+      "headSha": "0f1ab7323878dfcf5ae0a97487cbe79e5bcd4cc1",
+      "thread": "PRRT_kwDOVPlsoc6wbRuY",
+      "version": "1",
+      "state": "open",
+      "firstSeen": "2026-10-26T19:50:08.108Z",
+      "lastSeen": "2026-10-26T19:50:08.108Z"
+    },
+    {
+      "key": "thread-PRRT_kwDOVPlsoc6wbRug",
+      "source": "thread",
+      "author": "michaeltomlinsontuks",
+      "url": "https://github.com/DarkFactoryTestORG/tyto-sandbox/pull/90#discussion_r4381742358",
+      "path": "CHANGELOG.md",
+      "line": 9,
+      "title": "Rewrite every historic entry in the changelog into categories.",
+      "body": "@michaeltomlinsontuks: Rewrite every historic entry in the changelog into categories.",
+      "headSha": "0f1ab7323878dfcf5ae0a97487cbe79e5bcd4cc1",
+      "thread": "PRRT_kwDOVPlsoc6wbRug",
+      "version": "1",
+      "state": "open",
+      "firstSeen": "2026-10-26T19:50:08.108Z",
+      "lastSeen": "2026-10-26T19:50:08.108Z"
+    }
+  ],
   "decided": [],
   "stalled": false
 }
