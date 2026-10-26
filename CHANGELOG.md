@@ -6,6 +6,7 @@ ending with the issue it closes, e.g. `- Tasks can be searched by title (#12)`. 
 
 ## Unreleased
 
+- Smoke run 202610262037: happy path (#101)
 - A conflicting entry from the smoke runner 202610262012 (#96)
 - A conflicting entry from the smoke runner 202610261929 (#89)
 - A conflicting entry from the smoke runner 202610261513 (#75)
