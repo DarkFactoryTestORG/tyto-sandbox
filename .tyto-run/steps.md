@@ -6,3 +6,4 @@
 | flow/seed | done | 947db087f867 | database reset to the base snapshot |
 | flow/baseline | done | 947db087f867 | baseline for 8b530722c478 from the warmer: no failing test |
 | flow/demo-colour | done | 947db087f867 | Background set to #b39ddb (Lavender), with matching visible label; lint and format checks pass. |
+| flow/pr-open | done | 947db087f867 | draft PR open |
