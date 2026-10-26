@@ -26,3 +26,4 @@ Resolved the changelog merge conflict preserving both entries; lint, typecheck, 
 | flow/judge@3 | skipped | 52eb39a66234 | skipped: steps.ledger.open > 0 \|\| steps.ledger.conflicted is false |
 | flow/final-gates@2 | done | 52eb39a66234 | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
 | flow/review-images@2 | done | 52eb39a66234 | 2 review image(s) built for 544b4867b734 |
+| flow/review-seed@2 | done | 52eb39a66234 | database seeded with the review scenario review |
