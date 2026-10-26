@@ -1,24 +1,21 @@
 {
   "key": "flow/smoke-edit",
-  "seq": 5,
+  "seq": 10,
   "specHash": "a66487ef64b477221aa6266fd78d68ad80ba5678a94bc728c6f36312f55af27b",
-  "status": "clarify",
-  "summary": "asked (entry-wording): Should the changelog entry use the issue's Summary word for word, or a shorter wording?",
+  "status": "done",
+  "summary": "Added a concise Unreleased entry for clarification smoke run 202610262012 (#98).",
   "result": {
-    "status": "clarify",
-    "summary": "asked (entry-wording): Should the changelog entry use the issue's Summary word for word, or a shorter wording?",
-    "clarification": {
-      "id": "entry-wording",
-      "question": "Should the changelog entry use the issue's Summary word for word, or a shorter wording?",
-      "options": [
-        "Word for word",
-        "Shorter"
-      ],
-      "blocks": "T1"
-    },
+    "status": "done",
+    "summary": "Added a concise Unreleased entry for clarification smoke run 202610262012 (#98).",
+    "covers": [
+      "R1"
+    ],
     "usage": {
-      "turns": 1,
-      "costUsd": 0.007356
+      "turns": 13,
+      "costUsd": 0.048753
+    },
+    "report": {
+      "Decisions": "- flow/smoke-edit: Shorter"
     }
   }
 }

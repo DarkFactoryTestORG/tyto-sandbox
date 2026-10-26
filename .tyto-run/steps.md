@@ -2,9 +2,9 @@
 
 | Step | Status | Spec | Summary |
 |---|---|---|---|
-| flow/prepare | done | a66487ef64b4 | on tyto/98-smoke-clarification-202610262012 (created at the base), base cf78b51ccbc8 |
 | flow/seed | done | a66487ef64b4 | database reset to the base snapshot |
-| flow/dev-servers | done | a66487ef64b4 | ready: api http://127.0.0.1:4000, web http://127.0.0.1:3000 |
 | flow/baseline | done | a66487ef64b4 | baseline for cf78b51ccbc8 from the warmer: no failing test |
-| flow/smoke-edit | clarify | a66487ef64b4 | asked (entry-wording): Should the changelog entry use the issue's Summary word for word, or a shorter wording? |
 | question/flow/smoke-edit/entry-wording | done | a66487ef64b4 | Should the changelog entry use the issue's Summary word for word, or a shorter wording? |
+| flow/prepare | done | a66487ef64b4 | on tyto/98-smoke-clarification-202610262012 (fetched (d93c9cf9ddaa)), base cf78b51ccbc8 |
+| flow/dev-servers | done | a66487ef64b4 | ready: api http://127.0.0.1:4000, web http://127.0.0.1:3000 |
+| flow/smoke-edit | done | a66487ef64b4 | Added a concise Unreleased entry for clarification smoke run 202610262012 (#98). |
