@@ -7,3 +7,4 @@
 | flow/dev-servers | done | 6ba1b31efcdb | ready: api http://127.0.0.1:4000, web http://127.0.0.1:3000 |
 | flow/baseline | done | 6ba1b31efcdb | baseline for cf78b51ccbc8 from the warmer: no failing test |
 | flow/smoke-edit | done | 6ba1b31efcdb | Added an Unreleased entry for smoke run 202610262012: happy path (#96). |
+| flow/smoke-check | done | 6ba1b31efcdb | Verified the one-line entry matches the Summary; no correction needed, and format checks passed. |
