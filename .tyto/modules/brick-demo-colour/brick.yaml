@@ -1,0 +1,17 @@
+# The demo workflow's agent step: sets Plotline's page background to the issue's colour, with a
+# label naming it, so the preview shows the change at a glance. Later colours come through PR or
+# issue feedback, which the Judge applies in the same block.
+id: demo-colour
+version: 0.1.0
+scope: library
+description: Sets the web app's page background to the issue's colour and labels it (the demo workflow's agent step)
+category: implement
+kind: agent
+role: Implementer
+tier: low
+prompt: prompt.md
+reads: ['@core', '@context']
+standards: [coding]
+writes: [code]
+doneGate: [lint, format]
+budget: { turns: 15 }

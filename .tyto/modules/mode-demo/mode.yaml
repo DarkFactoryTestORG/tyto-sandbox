@@ -1,0 +1,9 @@
+# The demo mode: a page background colour on Plotline, visible in the preview, changed again by
+# feedback on the PR or the issue (make demo, docs/demo.md). Label kind:demo.
+id: demo
+version: 0.1.0
+scope: library
+description: A page background colour through every generic brick, for the local demo
+template: demo
+workflow: demo
+prTemplate: demo
