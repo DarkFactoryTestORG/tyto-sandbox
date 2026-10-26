@@ -13,3 +13,4 @@
 | flow/final-gates | done | 171a075e83d2 | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
 | flow/review-images | done | 171a075e83d2 | 2 review image(s) built for bd646590f1f7 |
 | flow/review-seed | done | 171a075e83d2 | database seeded with the review scenario review |
+| flow/preview | done | 171a075e83d2 | preview at http://60-tyto-sandbox.localtest.me:8080/ for bd646590f1f7 (started in 4.3 s) |
