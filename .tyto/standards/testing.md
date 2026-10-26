@@ -34,6 +34,13 @@ Seeded accounts: `owner@plotline.test` (Acme owner), `member@plotline.test` (Acm
 
 ## e2e
 
+- In a factory issue pod the api (port 4000) and the web app (port 3000) already run in dev mode,
+  started by the factory and listed in the prompt's environment. Use them: the Playwright config's
+  `webServer` reuses a server already on its port (`reuseExistingServer`), so `pnpm test:e2e` and
+  your own Playwright scripts run against the running stack. Never start a second copy or kill
+  them; restart one with `tyto-code dev restart <app>` and read its log with `tyto-code dev logs <app>`.
+- `pnpm test:e2e` resets and reseeds the database while the api runs. The api keeps working (its
+  pool reconnects on the next query); if it misbehaves afterwards, `tyto-code dev restart api`.
 - Log in with the `loginAs(email)` fixture (`apps/web/e2e/fixtures.ts`), which sets the bypass
   cookie. Locate elements by role and name, never by CSS class.
 - Tests must not depend on each other: create the data a test changes inside the test.
