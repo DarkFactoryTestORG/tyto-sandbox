@@ -16,3 +16,4 @@
 | flow/final-gates | done | a66487ef64b4 | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
 | flow/review-images | done | a66487ef64b4 | 2 review image(s) built for 23c5789bc02b |
 | flow/review-seed | done | a66487ef64b4 | database seeded with the review scenario review |
+| flow/preview | done | a66487ef64b4 | preview at http://98-tyto-sandbox.localtest.me:8080/ for 23c5789bc02b (started in 3.5 s) |
