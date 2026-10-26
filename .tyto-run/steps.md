@@ -22,3 +22,4 @@
 | flow/judge@2 | done | a9fec7e354ef | round 2: no open items; the merge with dev resolved
 
 Resolved the changelog conflict preserving both entries; lint, typecheck, tests and changelog formatting pass. |
+| flow/ledger@3 | done | a9fec7e354ef | No feedback. 0 open (0 required) |
