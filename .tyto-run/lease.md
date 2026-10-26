@@ -1,3 +1,0 @@
-# Lease
-
-attempt: 2
