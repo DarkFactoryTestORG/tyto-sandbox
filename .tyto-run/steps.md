@@ -15,10 +15,6 @@
 | flow/review-seed | done | 52eb39a66234 | database seeded with the review scenario review |
 | flow/preview | done | 52eb39a66234 | preview at http://101-tyto-sandbox.localtest.me:8080/ for 3c71ce5898cc (started in 4.7 s) |
 | flow/smoke-evidence | done | 52eb39a66234 | Captured E1: http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/101/ca6fcf619f20eec83f96f3a7673fc73aaffa4514/E1/smoke-lint.txt |
-| flow/prepare | done | 52eb39a66234 | on tyto/101-smoke-happy-path-202610262037 (fetched (cfbdbdee8ec5)), base 374e7072ff30, run state restored from 867e7aa64924 |
-| flow/dev-servers | done | 52eb39a66234 | ready: api http://127.0.0.1:4000, web http://127.0.0.1:3000 |
-| flow/sync@2 | done | 52eb39a66234 | merging dev at 374e7072ff30 conflicts in 1 path(s): CHANGELOG.md |
-| flow/ledger@2 | done | 52eb39a66234 | No feedback. 0 open (0 required) |
 | flow/judge@2 | done | 52eb39a66234 | round 2: no open items; the merge with dev resolved
 
 Resolved the changelog merge conflict preserving both entries; lint, typecheck, and all tests pass. |
@@ -29,3 +25,4 @@ Resolved the changelog merge conflict preserving both entries; lint, typecheck, 
 | flow/review-seed@2 | done | 52eb39a66234 | database seeded with the review scenario review |
 | flow/preview@2 | done | 52eb39a66234 | preview at http://101-tyto-sandbox.localtest.me:8080/ for 544b4867b734 (started in 4.7 s) |
 | flow/smoke-evidence@2 | done | 52eb39a66234 | Captured E1: http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/101/aad0d7148034dbd9120612bc96b5ad35d6a77490/E1/smoke-lint.txt |
+| flow/prepare | done | 52eb39a66234 | on tyto/101-smoke-happy-path-202610262037 (fetched (37cc733d7a28)), base 374e7072ff30, run state restored from 5ba5ccf3cbfd |
