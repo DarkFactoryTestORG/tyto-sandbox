@@ -1,0 +1,18 @@
+{
+  "key": "flow/smoke-check",
+  "seq": 11,
+  "specHash": "a66487ef64b477221aa6266fd78d68ad80ba5678a94bc728c6f36312f55af27b",
+  "status": "done",
+  "summary": "Verified the one-line entry matches the Summary; no correction needed, and format passes.",
+  "result": {
+    "status": "done",
+    "summary": "Verified the one-line entry matches the Summary; no correction needed, and format passes.",
+    "covers": [
+      "R1"
+    ],
+    "usage": {
+      "turns": 3,
+      "costUsd": 0.00681
+    }
+  }
+}

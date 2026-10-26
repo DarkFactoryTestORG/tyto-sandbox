@@ -8,3 +8,4 @@
 | flow/prepare | done | a66487ef64b4 | on tyto/98-smoke-clarification-202610262012 (fetched (d93c9cf9ddaa)), base cf78b51ccbc8 |
 | flow/dev-servers | done | a66487ef64b4 | ready: api http://127.0.0.1:4000, web http://127.0.0.1:3000 |
 | flow/smoke-edit | done | a66487ef64b4 | Added a concise Unreleased entry for clarification smoke run 202610262012 (#98). |
+| flow/smoke-check | done | a66487ef64b4 | Verified the one-line entry matches the Summary; no correction needed, and format passes. |
