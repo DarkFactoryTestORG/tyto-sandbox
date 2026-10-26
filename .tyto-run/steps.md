@@ -24,9 +24,11 @@ Resolved the changelog merge conflict preserving both entries; lint, typecheck, 
 | flow/review-seed@2 | done | 52eb39a66234 | database seeded with the review scenario review |
 | flow/preview@2 | done | 52eb39a66234 | preview at http://101-tyto-sandbox.localtest.me:8080/ for 544b4867b734 (started in 4.7 s) |
 | flow/smoke-evidence@2 | done | 52eb39a66234 | Captured E1: http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/101/aad0d7148034dbd9120612bc96b5ad35d6a77490/E1/smoke-lint.txt |
-| flow/prepare | done | 52eb39a66234 | on tyto/101-smoke-happy-path-202610262037 (fetched (37cc733d7a28)), base 374e7072ff30, run state restored from 5ba5ccf3cbfd |
-| flow/dev-servers | done | 52eb39a66234 | ready: api http://127.0.0.1:4000, web http://127.0.0.1:3000 |
 | flow/sync@3 | done | 52eb39a66234 | up to date with dev at 374e7072ff30 |
 | flow/ledger@4 | done | 52eb39a66234 | 3 items: 3 open. 3 open (3 required) |
-| flow/judge@3 | clarify | 52eb39a66234 | asked (changelog-wording-approval): The reviewer requested your explicit approval before merge. I applied the past-tense request: “Completed smoke run 20... |
 | question/flow/judge/changelog-wording-approval | done | 52eb39a66234 | The reviewer requested your explicit approval before merge. I applied the past-tense request: “Completed smoke run 202610262037: happy path (#101)”. Do you approve keeping this wording? The README request was dismissed because Scope explicitly excludes it. |
+| flow/prepare | done | 52eb39a66234 | on tyto/101-smoke-happy-path-202610262037 (fetched (701fba641ee3)), base 374e7072ff30 |
+| flow/dev-servers | done | 52eb39a66234 | ready: api http://127.0.0.1:4000, web http://127.0.0.1:3000 |
+| flow/judge@3 | done | 52eb39a66234 | round 3: 1 applied, 2 dismissed
+
+Updated the entry to past tense, dismissed README work as out of scope, and honored the owner's request to skip approval; all gates pass. |
