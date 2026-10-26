@@ -37,3 +37,4 @@ Updated the new entry to past tense, dismissed two out-of-scope requests, and ve
 | flow/final-gates@3 | done | a9fec7e354ef | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
 | flow/review-images@3 | done | a9fec7e354ef | 2 review image(s) built for d1e116c9e31a |
 | flow/review-seed@3 | done | a9fec7e354ef | database seeded with the review scenario review |
+| flow/preview@3 | done | a9fec7e354ef | preview at http://89-tyto-sandbox.localtest.me:8080/ for d1e116c9e31a (started in 4.7 s) |
