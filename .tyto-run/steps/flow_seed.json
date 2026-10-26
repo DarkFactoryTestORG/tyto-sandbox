@@ -1,0 +1,11 @@
+{
+  "key": "flow/seed",
+  "seq": 2,
+  "specHash": "26852fa5efb3f010d95a37438224c2fd1555ae75b6eb87da8ed28f1da15153a8",
+  "status": "done",
+  "summary": "database reset to the base snapshot",
+  "result": {
+    "status": "done",
+    "summary": "database reset to the base snapshot"
+  }
+}
