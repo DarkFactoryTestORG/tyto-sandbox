@@ -2,7 +2,6 @@
 
 | Step | Status | Spec | Summary |
 |---|---|---|---|
-| flow/prepare | done | e2922e6fe225 | on tyto/62-smoke-happy-path-202610261008 (created at the base), base 73aa23a7a2c4 |
 | flow/seed | done | e2922e6fe225 | database reset to the base snapshot |
 | flow/baseline | done | e2922e6fe225 | baseline for 73aa23a7a2c4 from the warmer: no failing test |
 | flow/smoke-edit | done | e2922e6fe225 | Added one Unreleased changelog entry for smoke run 202610261008: happy path (#62). |
@@ -15,3 +14,4 @@
 | flow/review-seed | done | e2922e6fe225 | database seeded with the review scenario review |
 | flow/preview | done | e2922e6fe225 | preview at http://62-tyto-sandbox.localtest.me:8080/ for c66b6b4e894d (started in 5.6 s) |
 | flow/smoke-evidence | done | e2922e6fe225 | Captured E1: http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/62/b4bce6be8eecc1d01e6774242de80efe2476e895/E1/smoke-lint.txt |
+| flow/prepare | done | e2922e6fe225 | on tyto/62-smoke-happy-path-202610261008 (fetched (bbb83ed9f0bf)), base 2ea4119c61b8, run state restored from 2a49e1b4ff80 |
