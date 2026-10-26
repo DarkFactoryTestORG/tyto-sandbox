@@ -40,3 +40,4 @@ Acknowledged the owner's reply without further changes; lint, typecheck, and tes
 | checkpoint/flow/judge@4/decisions | done | 52eb39a66234 | 1 decision(s) posted |
 | flow/final-gates@3 | done | 52eb39a66234 | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
 | flow/review-images@3 | done | 52eb39a66234 | 2 review image(s) built for 50fa39446507 |
+| flow/review-seed@3 | done | 52eb39a66234 | database seeded with the review scenario review |
