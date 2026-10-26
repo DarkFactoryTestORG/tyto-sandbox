@@ -8,3 +8,4 @@
 | flow/baseline | done | 9abb46564867 | baseline for 73aa23a7a2c4 from the warmer: no failing test |
 | flow/smoke-edit | done | 9abb46564867 | Added an Unreleased changelog entry for smoke run 202610261440’s happy path (#67). |
 | flow/smoke-check | done | 9abb46564867 | Verified the one-line changelog entry matches the Summary; no correction needed, and format checks pass. |
+| flow/pr-open | done | 9abb46564867 | draft PR open |
