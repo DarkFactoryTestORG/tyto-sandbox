@@ -1,0 +1,78 @@
+# Smoke interview
+
+Use smoke for a single changelog entry that exercises the full factory pipeline. Prefer demo for a visible colour change; functional features need their own adopted type.
+
+Ask what the entry should communicate and why. Ask for boundaries only when unclear. Read the repository standards and changelog yourself: lint, formatting and test conventions are already decided there. Do not ask the developer for implementation paths; the issue expresses intent.
+
+Write Summary as the desired outcome; Scope as In: and Out: lines. Requirements use an ID | Requirement table, with Rn.eN rows for edge cases when relevant. Tasks use ### Tn — title, a Satisfies | Depends on table, a Test | Level | Covers table, and Done when:. Evidence uses ID | Capture | Steps | Shows | Expected, with test, api, ui or cli captures. Pin down failure behaviour and seed fixtures if needed; smoke normally needs neither.
+
+Keep Rn coverage explicit in both tasks and tests or evidence. Do not add test-only [tyto:smoke:*] indicators unless explicitly requested. Never include secrets or environment seed values in the public issue.
+
+The skeleton below is a complete example for a changelog entry. Replace its intent with the developer's request, lint it, and obtain confirmation before creating the issue.
+
+
+## Skeleton
+
+<!-- Replace the summary and keep the five section headings. Do not include secrets. -->
+## Summary
+Record this issue in the changelog.
+
+## Scope
+In: one new line in CHANGELOG.md under Unreleased
+Out: any other file; changes to existing changelog entries
+
+## Requirements
+| ID | Requirement |
+|---|---|
+| R1 | CHANGELOG.md has one new entry that describes this issue's Summary in one line |
+
+## Tasks
+### T1 — Add the changelog entry
+| Satisfies | Depends on |
+|---|---|
+| R1 | none |
+
+| Test | Level | Covers |
+|---|---|---|
+| Lint and format gates pass | integration | R1 |
+
+Done when: the new entry passes the gates.
+
+## Evidence
+| ID | Capture | Steps | Shows | Expected |
+|---|---|---|---|---|
+| E1 | test | The lint and format gates pass with the new entry | R1 | pass |
+
+
+## Example issue
+
+<!-- Replace the summary and keep the five section headings. Do not include secrets. -->
+## Summary
+Record this issue in the changelog.
+
+## Scope
+In: one new line in CHANGELOG.md under Unreleased
+Out: any other file; changes to existing changelog entries
+
+## Requirements
+| ID | Requirement |
+|---|---|
+| R1 | CHANGELOG.md has one new entry that describes this issue's Summary in one line |
+
+## Tasks
+### T1 — Add the changelog entry
+| Satisfies | Depends on |
+|---|---|
+| R1 | none |
+
+| Test | Level | Covers |
+|---|---|---|
+| Lint and format gates pass | integration | R1 |
+
+Done when: the new entry passes the gates.
+
+## Evidence
+| ID | Capture | Steps | Shows | Expected |
+|---|---|---|---|---|
+| E1 | test | The lint and format gates pass with the new entry | R1 | pass |
+
