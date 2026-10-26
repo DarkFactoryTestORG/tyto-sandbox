@@ -6,6 +6,7 @@ ending with the issue it closes, e.g. `- Tasks can be searched by title (#12)`. 
 
 ## Unreleased
 
+- Smoke run 202610261929: recovery (#93)
 - A conflicting entry from the smoke runner 202610261513 (#75)
 - Factory verification excludes generated run records from formatting (#41)
 
