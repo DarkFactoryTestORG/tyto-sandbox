@@ -1,0 +1,32 @@
+# The demo workflow: the smoke workflow's generic bricks around one visible change, a page
+# background colour on Plotline (template demo). Feedback on the PR, or on the issue with the
+# feedback source's issueComments on, re-enters from sync; the ledger picks it up and the Judge
+# applies the new colour, so a second colour reaches the preview too.
+id: demo
+version: 0.1.0
+scope: library
+description: Prepare, seed, baseline, the colour change, the draft PR, sync, the ledger and the Judge, final gates, review images, review seed, preview, hand-off
+pod: { profile: full }
+reentry: { from: sync }
+params:
+  gates: { type: array, items: { type: string }, default: [lint, format, typecheck, tests-all] }
+flow:
+  - brick: prepare
+  - brick: seed
+    when: pod.db
+  - brick: baseline
+  - brick: demo-colour
+  - brick: pr-open
+  - brick: sync
+  - brick: ledger
+  - brick: judge
+    when: steps.ledger.open > 0 || steps.ledger.conflicted
+    loopback: { to: ledger, max: 3, while: steps.judge.recheck, stalled: steps.ledger.stalled }
+  - brick: final-gates
+    with: { gates: '{{params.gates}}' }
+  - brick: review-images
+  - brick: review-seed
+    when: pod.db
+  - brick: preview
+    when: pod.app
+  - brick: handoff
