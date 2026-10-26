@@ -16,3 +16,4 @@
 | flow/review-images | done | 46da4bb00775 | 2 review image(s) built for 15869dc992a8 |
 | flow/review-seed | done | 46da4bb00775 | database seeded with the review scenario review |
 | flow/preview | done | 46da4bb00775 | preview at http://93-tyto-sandbox.localtest.me:8080/ for 15869dc992a8 (started in 4.0 s) |
+| flow/smoke-evidence | done | 46da4bb00775 | Captured E1: http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/93/72e23870b1f2e1fd894dbdb7e1973e392e17e436/E1/smoke-lint.txt |
