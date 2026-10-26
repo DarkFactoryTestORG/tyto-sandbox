@@ -71,7 +71,8 @@ apps:
         DATABASE_URL: '{{services.postgres.url}}'
         NODE_ENV: development
         PLOTLINE_DEV_AUTH: '1'
-      restartOn: ['apps/api/src/**', 'packages/db/src/**', 'packages/db/migrations/**', 'packages/shared/src/**']
+      restartOn:
+        ['apps/api/src/**', 'packages/db/src/**', 'packages/db/migrations/**', 'packages/shared/src/**']
   web:
     dockerfile: apps/web/Dockerfile
     port: 3000
