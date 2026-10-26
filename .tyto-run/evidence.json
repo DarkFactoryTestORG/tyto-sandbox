@@ -1,0 +1,24 @@
+[
+  {
+    "id": "E1",
+    "kind": "log",
+    "caption": "Lint passed with 10 successful tasks; captured against the pushed base SHA.",
+    "sha": "606dfb0efc9769cec21d71ec11c34ca83f3baae3",
+    "key": "DarkFactoryTestORG/tyto-sandbox/103/606dfb0efc9769cec21d71ec11c34ca83f3baae3/E1/smoke-lint.log",
+    "url": "http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/103/606dfb0efc9769cec21d71ec11c34ca83f3baae3/E1/smoke-lint.log",
+    "sha256": "a6397176cfd1fe3453a993e4871554c7056963696d2efc3b1652c1644554ac01",
+    "bytes": 7682,
+    "step": "flow/smoke-edit"
+  },
+  {
+    "id": "E2",
+    "kind": "ui",
+    "caption": "Login page (/login) on the running web app.",
+    "sha": "606dfb0efc9769cec21d71ec11c34ca83f3baae3",
+    "key": "DarkFactoryTestORG/tyto-sandbox/103/606dfb0efc9769cec21d71ec11c34ca83f3baae3/E2/smoke-login.png",
+    "url": "http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/103/606dfb0efc9769cec21d71ec11c34ca83f3baae3/E2/smoke-login.png",
+    "sha256": "17dcf2d1e1a809bad65b0e6b7b4991ed1db0c99359b5500aa37ee7e4390a5298",
+    "bytes": 13708,
+    "step": "flow/smoke-edit"
+  }
+]

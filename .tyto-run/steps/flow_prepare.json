@@ -1,11 +1,11 @@
 {
   "key": "flow/prepare",
-  "seq": 1,
+  "seq": 7,
   "specHash": "5403553ecdbef34fe3cbae317b0f23abad658d187eb7b2cf7c0cab1fd16c02c0",
   "status": "done",
-  "summary": "on tyto/103-smoke-clarification-202610262037 (created at the base), base 606dfb0efc97",
+  "summary": "on tyto/103-smoke-clarification-202610262037 (fetched (ae194ac0d964)), base 606dfb0efc97",
   "result": {
     "status": "done",
-    "summary": "on tyto/103-smoke-clarification-202610262037 (created at the base), base 606dfb0efc97"
+    "summary": "on tyto/103-smoke-clarification-202610262037 (fetched (ae194ac0d964)), base 606dfb0efc97"
   }
 }
