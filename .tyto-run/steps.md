@@ -13,3 +13,4 @@
 | flow/ledger | done | a9fec7e354ef | No feedback. 0 open (0 required) |
 | flow/judge | skipped | a9fec7e354ef | skipped: steps.ledger.open > 0 \|\| steps.ledger.conflicted is false |
 | flow/final-gates | done | a9fec7e354ef | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
+| flow/review-images | done | a9fec7e354ef | 2 review image(s) built for 8b43085b6442 |
