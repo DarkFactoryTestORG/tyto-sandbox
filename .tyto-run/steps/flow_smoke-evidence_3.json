@@ -1,0 +1,11 @@
+{
+  "key": "flow/smoke-evidence@3",
+  "seq": 40,
+  "specHash": "a9fec7e354efd1c02a06cf2f160b275093106141f1f1f34481ef8a3cf3ebb0a9",
+  "status": "done",
+  "summary": "Captured E1: http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/89/a9b5700810e8c398b26cbccf7073c38b9e5ebad6/E1/smoke-lint.txt",
+  "result": {
+    "status": "done",
+    "summary": "Captured E1: http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/89/a9b5700810e8c398b26cbccf7073c38b9e5ebad6/E1/smoke-lint.txt"
+  }
+}

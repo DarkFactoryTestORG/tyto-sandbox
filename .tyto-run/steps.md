@@ -38,3 +38,4 @@ Updated the new entry to past tense, dismissed two out-of-scope requests, and ve
 | flow/review-images@3 | done | a9fec7e354ef | 2 review image(s) built for d1e116c9e31a |
 | flow/review-seed@3 | done | a9fec7e354ef | database seeded with the review scenario review |
 | flow/preview@3 | done | a9fec7e354ef | preview at http://89-tyto-sandbox.localtest.me:8080/ for d1e116c9e31a (started in 4.7 s) |
+| flow/smoke-evidence@3 | done | a9fec7e354ef | Captured E1: http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/89/a9b5700810e8c398b26cbccf7073c38b9e5ebad6/E1/smoke-lint.txt |
