@@ -7,3 +7,4 @@
 | flow/baseline | done | 171a075e83d2 | baseline for 73aa23a7a2c4 from the warmer: no failing test |
 | flow/smoke-edit | done | 171a075e83d2 | Added an Unreleased entry describing drafting and linting factory issues through the generated factory-spec skill (#60). |
 | flow/pr-open | done | 171a075e83d2 | draft PR open |
+| flow/sync | done | 171a075e83d2 | up to date with dev at 73aa23a7a2c4 |
