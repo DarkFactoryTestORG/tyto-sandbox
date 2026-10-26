@@ -1,6 +1,8 @@
 {
   "dev": "dev",
-  "devSha": "cf78b51ccbc8267527529f3abedc8c85bbfe8909",
-  "merged": false,
-  "conflicts": []
+  "devSha": "606dfb0efc9769cec21d71ec11c34ca83f3baae3",
+  "merged": true,
+  "conflicts": [
+    "CHANGELOG.md"
+  ]
 }
