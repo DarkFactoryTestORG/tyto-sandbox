@@ -31,7 +31,11 @@ export function demoSections(spec: Spec, productionUrl?: string): Record<string,
   if (!detail) return {};
   return {
     Colour: [
-      ...(productionUrl ? [`Compare the [production demo (dev branch)](${productionUrl}) with this PR’s preview linked above. These are separate local instances; PR changes appear only in the preview.`] : []),
+      ...(productionUrl
+        ? [
+            `Compare the [production demo (dev branch)](${productionUrl}) with this PR’s preview linked above. These are separate local instances; PR changes appear only in the preview.`,
+          ]
+        : []),
       `The issue asked for **${detail.name}** \`${detail.colour}\`. The preview's page background is that colour, and the bar at the top of every page names it.`,
       'To try another colour, comment here (or on the issue), e.g. "Make the background Mint (#6fe3b4)". The factory wakes the PR, the Judge applies the change, and the preview and the bar follow; the Ledger below records the decision.',
     ].join('\n\n'),
@@ -46,6 +50,10 @@ export default defineModule({
   configSchema: Config,
   create: (config) => ({
     file: () => SECTIONS.map((h) => `## ${h}\n\n<!-- filled by tyto-code -->\n`).join('\n'),
-    render: (spec: Spec, summary: RunSummary) => renderStandardPr(spec, summary, { showCost: config.showCost, extra: demoSections(spec, config.productionUrl) }),
+    render: (spec: Spec, summary: RunSummary) =>
+      renderStandardPr(spec, summary, {
+        showCost: config.showCost,
+        extra: demoSections(spec, config.productionUrl),
+      }),
   }),
 });

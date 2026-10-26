@@ -3,7 +3,14 @@
 // watch a Judge round apply it. Sections: Summary, Background colour (both @core), Notes (optional,
 // @context). The scope is the template's, not the issue's: the Judge reads it to decide that "make
 // it green" on the PR is in scope.
-import { defineModule, type IssueForm, type LintError, type RawIssue, type Spec, type SpecSection } from '@tyto/core';
+import {
+  defineModule,
+  type IssueForm,
+  type LintError,
+  type RawIssue,
+  type Spec,
+  type SpecSection,
+} from '@tyto/core';
 
 /** The presets the form offers; mid-tone, so Plotline's dark text stays readable on each. */
 export const PRESETS = [
@@ -18,7 +25,9 @@ const CUSTOM = 'Custom (the hex under Custom colour)';
 /** The file and the marker the demo-colour brick keeps the colour under. */
 export const DEMO_FILE = 'apps/web/src/app/globals.css';
 export const SCOPE = {
-  in: [`the page background colour and its label in ${DEMO_FILE}, including another colour a reviewer asks for on the PR or the issue`],
+  in: [
+    `the page background colour and its label in ${DEMO_FILE}, including another colour a reviewer asks for on the PR or the issue`,
+  ],
   out: ['any other file or style'],
 };
 
@@ -56,21 +65,44 @@ function analyse(body: string): { detail: DemoDetail; errors: LintError[]; summa
   const line = (name: string) => sections.get(name)?.line ?? 1;
 
   const summary = text('Summary');
-  if (!summary) errors.push({ rule: 'section.required', section: 'Summary', line: line('Summary'), message: 'section "Summary" is missing or empty' });
+  if (!summary)
+    errors.push({
+      rule: 'section.required',
+      section: 'Summary',
+      line: line('Summary'),
+      message: 'section "Summary" is missing or empty',
+    });
 
   const detail: DemoDetail = { colour: '', name: '' };
   const chosen = text('Background colour');
   if (!chosen) {
-    errors.push({ rule: 'section.required', section: 'Background colour', line: line('Background colour'), message: 'section "Background colour" is missing or empty' });
+    errors.push({
+      rule: 'section.required',
+      section: 'Background colour',
+      line: line('Background colour'),
+      message: 'section "Background colour" is missing or empty',
+    });
   } else if (chosen.startsWith('Custom')) {
     const hex = HEX.exec(text('Custom colour'))?.[0];
     if (hex) Object.assign(detail, { colour: hex.toLowerCase(), name: 'Custom' });
-    else errors.push({ rule: 'colour.custom', section: 'Custom colour', line: line('Custom colour'), message: 'Custom needs a hex colour such as #33aa77 under "Custom colour"' });
+    else
+      errors.push({
+        rule: 'colour.custom',
+        section: 'Custom colour',
+        line: line('Custom colour'),
+        message: 'Custom needs a hex colour such as #33aa77 under "Custom colour"',
+      });
   } else {
     const hex = HEX.exec(chosen)?.[0];
     const preset = PRESETS.find((p) => chosen.startsWith(p.name));
     if (hex) Object.assign(detail, { colour: hex.toLowerCase(), name: preset?.name ?? 'Custom' });
-    else errors.push({ rule: 'colour.format', section: 'Background colour', line: line('Background colour'), message: `expected a preset such as "${PRESETS[0].name} (${PRESETS[0].hex})" or a hex colour, got "${chosen}"` });
+    else
+      errors.push({
+        rule: 'colour.format',
+        section: 'Background colour',
+        line: line('Background colour'),
+        message: `expected a preset such as "${PRESETS[0].name} (${PRESETS[0].hex})" or a hex colour, got "${chosen}"`,
+      });
   }
 
   return { detail, errors, summary, notes: text('Notes') };
@@ -113,15 +145,40 @@ function form(): IssueForm {
             '"Make the background Mint (#6fe3b4)": the factory wakes, the Judge applies it and the preview updates.',
         },
       },
-      { type: 'input', id: 'summary', attributes: { label: 'Summary', description: 'One sentence: why this colour.', value: 'Make the preview obviously ours.' }, validations: { required: true } },
+      {
+        type: 'input',
+        id: 'summary',
+        attributes: {
+          label: 'Summary',
+          description: 'One sentence: why this colour.',
+          value: 'Make the preview obviously ours.',
+        },
+        validations: { required: true },
+      },
       {
         type: 'dropdown',
         id: 'colour',
-        attributes: { label: 'Background colour', options: [...PRESETS.map((p) => `${p.name} (${p.hex})`), CUSTOM], default: 0 },
+        attributes: {
+          label: 'Background colour',
+          options: [...PRESETS.map((p) => `${p.name} (${p.hex})`), CUSTOM],
+          default: 0,
+        },
         validations: { required: true },
       },
-      { type: 'input', id: 'custom', attributes: { label: 'Custom colour', description: 'Only for Custom: a hex colour, e.g. #33aa77.', placeholder: '#33aa77' } },
-      { type: 'textarea', id: 'notes', attributes: { label: 'Notes', description: 'Optional context for the agent.' } },
+      {
+        type: 'input',
+        id: 'custom',
+        attributes: {
+          label: 'Custom colour',
+          description: 'Only for Custom: a hex colour, e.g. #33aa77.',
+          placeholder: '#33aa77',
+        },
+      },
+      {
+        type: 'textarea',
+        id: 'notes',
+        attributes: { label: 'Notes', description: 'Optional context for the agent.' },
+      },
     ],
   };
 }
@@ -130,7 +187,8 @@ export default defineModule({
   type: 'template',
   id: 'demo',
   version: '0.1.0',
-  description: 'Demo issue template: a page background colour for Plotline (a preset or a hex), visible in the preview',
+  description:
+    'Demo issue template: a page background colour for Plotline (a preset or a hex), visible in the preview',
   fixtures: { validIssue: VALID, invalidIssue: INVALID },
   create: () => ({
     form,
@@ -143,7 +201,11 @@ export default defineModule({
       const sections: SpecSection[] = [
         { name: 'Summary', group: 'core', markdown: summary },
         { name: 'Background colour', group: 'core', markdown: `${detail.colour} (${detail.name})` },
-        { name: 'Scope', group: 'core', markdown: [...SCOPE.in.map((s) => `- In: ${s}`), ...SCOPE.out.map((s) => `- Out: ${s}`)].join('\n') },
+        {
+          name: 'Scope',
+          group: 'core',
+          markdown: [...SCOPE.in.map((s) => `- In: ${s}`), ...SCOPE.out.map((s) => `- Out: ${s}`)].join('\n'),
+        },
         ...(notes ? [{ name: 'Notes', group: 'context' as const, markdown: notes }] : []),
       ];
       return {
