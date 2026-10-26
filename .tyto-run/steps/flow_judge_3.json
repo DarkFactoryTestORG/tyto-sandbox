@@ -1,8 +1,39 @@
 {
   "key": "flow/judge@3",
-  "seq": 22,
+  "seq": 32,
   "specHash": "6ba1b31efcdb999b68120ada4ac97f8cf39ac9d988cc86e2d2b8fe0a6de6770b",
-  "status": "skipped",
-  "summary": "skipped: steps.ledger.open > 0 || steps.ledger.conflicted is false",
-  "result": null
+  "status": "done",
+  "summary": "round 3: 1 applied, 2 dismissed\n\nUpdated the new entry to past tense; dismissed README work as out of scope and audience question as already answered by the changelog introduction. Lint, typecheck, tests and formatting pass.",
+  "result": {
+    "status": "done",
+    "summary": "round 3: 1 applied, 2 dismissed\n\nUpdated the new entry to past tense; dismissed README work as out of scope and audience question as already answered by the changelog introduction. Lint, typecheck, tests and formatting pass.",
+    "usage": {
+      "turns": 8,
+      "costUsd": 0.047444
+    },
+    "facts": {
+      "applied": 1,
+      "dismissed": 2,
+      "asked": 0,
+      "merged": false,
+      "recheck": true
+    },
+    "decisions": [
+      {
+        "key": "thread-PRRT_kwDOVPlsoc6wcGF7",
+        "action": "apply",
+        "justification": "Changed the new entry to past tense: “Completed smoke run 202610262012: happy path (#96)”; existing entries remain unchanged."
+      },
+      {
+        "key": "thread-PRRT_kwDOVPlsoc6wcGGA",
+        "action": "dismiss",
+        "justification": "Scope explicitly says “Out: any other file, including the README”; please open a follow-up issue for a README section about the changelog."
+      },
+      {
+        "key": "thread-PRRT_kwDOVPlsoc6wcGGF",
+        "action": "dismiss",
+        "justification": "The existing CHANGELOG.md introduction already specifies the audience: “what changed, for a user”; this entry follows that established end-user convention."
+      }
+    ]
+  }
 }

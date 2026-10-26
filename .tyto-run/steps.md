@@ -19,7 +19,6 @@
 
 Resolved the changelog conflict preserving both entries; lint, typecheck, and all tests pass. |
 | flow/ledger@3 | done | 6ba1b31efcdb | No feedback. 0 open (0 required) |
-| flow/judge@3 | skipped | 6ba1b31efcdb | skipped: steps.ledger.open > 0 \|\| steps.ledger.conflicted is false |
 | flow/final-gates@2 | done | 6ba1b31efcdb | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
 | flow/review-images@2 | done | 6ba1b31efcdb | 2 review image(s) built for b380ee696cb5 |
 | flow/review-seed@2 | done | 6ba1b31efcdb | database seeded with the review scenario review |
@@ -29,3 +28,6 @@ Resolved the changelog conflict preserving both entries; lint, typecheck, and al
 | flow/dev-servers | done | 6ba1b31efcdb | ready: api http://127.0.0.1:4000, web http://127.0.0.1:3000 |
 | flow/sync@3 | done | 6ba1b31efcdb | up to date with dev at 606dfb0efc97 |
 | flow/ledger@4 | done | 6ba1b31efcdb | 3 items: 3 open. 3 open (3 required) |
+| flow/judge@3 | done | 6ba1b31efcdb | round 3: 1 applied, 2 dismissed
+
+Updated the new entry to past tense; dismissed README work as out of scope and audience question as already answered by the changelog introduction. Lint, typecheck, tests and formatting pass. |
