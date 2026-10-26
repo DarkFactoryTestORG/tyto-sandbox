@@ -8,3 +8,4 @@
 | flow/baseline | done | e09b632f9765 | baseline for 73aa23a7a2c4 from the warmer: no failing test |
 | flow/smoke-edit | done | e09b632f9765 | Added an Unreleased entry for smoke run 202610261444: happy path (#69). |
 | flow/smoke-check | done | e09b632f9765 | Verified the one-line entry matches the Summary; no correction needed, and format checks pass. |
+| flow/pr-open | done | e09b632f9765 | draft PR open |
