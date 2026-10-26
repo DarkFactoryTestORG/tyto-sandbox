@@ -31,3 +31,5 @@ Resolved the changelog conflict preserving both entries; lint, typecheck, tests 
 | flow/judge@3 | done | a9fec7e354ef | round 3: 1 applied, 2 dismissed
 
 Updated the new entry to past tense, dismissed two out-of-scope requests, and verified lint, typecheck, tests and formatting pass. |
+| checkpoint/flow/judge@3/decisions | done | a9fec7e354ef | 3 decision(s) posted |
+| flow/ledger@5 | done | a9fec7e354ef | 3 items: 1 fixed, 2 dismissed. 0 open (0 required) |

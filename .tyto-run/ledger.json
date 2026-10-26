@@ -4,8 +4,8 @@
     "number": 90,
     "url": "https://github.com/DarkFactoryTestORG/tyto-sandbox/pull/90"
   },
-  "headSha": "0f1ab7323878dfcf5ae0a97487cbe79e5bcd4cc1",
-  "updatedAt": "2026-10-26T19:50:08.108Z",
+  "headSha": "5338d5022dab2f2aae48235a40c08cdab0c67edb",
+  "updatedAt": "2026-10-26T19:51:48.907Z",
   "items": [
     {
       "key": "thread-PRRT_kwDOVPlsoc6wbRuR",
@@ -16,12 +16,16 @@
       "line": 9,
       "title": "Please use the past tense in this entry.",
       "body": "@michaeltomlinsontuks: Please use the past tense in this entry.",
-      "headSha": "0f1ab7323878dfcf5ae0a97487cbe79e5bcd4cc1",
+      "headSha": "5338d5022dab2f2aae48235a40c08cdab0c67edb",
       "thread": "PRRT_kwDOVPlsoc6wbRuR",
       "version": "1",
-      "state": "open",
+      "state": "fixed",
+      "resolution": {
+        "by": "judge",
+        "commit": "5338d5022dab2f2aae48235a40c08cdab0c67edb"
+      },
       "firstSeen": "2026-10-26T19:50:08.108Z",
-      "lastSeen": "2026-10-26T19:50:08.108Z"
+      "lastSeen": "2026-10-26T19:51:48.907Z"
     },
     {
       "key": "thread-PRRT_kwDOVPlsoc6wbRuY",
@@ -32,12 +36,16 @@
       "line": 9,
       "title": "Also add a README section about the changelog.",
       "body": "@michaeltomlinsontuks: Also add a README section about the changelog.",
-      "headSha": "0f1ab7323878dfcf5ae0a97487cbe79e5bcd4cc1",
+      "headSha": "5338d5022dab2f2aae48235a40c08cdab0c67edb",
       "thread": "PRRT_kwDOVPlsoc6wbRuY",
       "version": "1",
-      "state": "open",
+      "state": "dismissed",
+      "resolution": {
+        "by": "judge",
+        "justification": "Scope explicitly marks “any other file, including the README” Out. Please propose the README changelog section in a follow-up issue."
+      },
       "firstSeen": "2026-10-26T19:50:08.108Z",
-      "lastSeen": "2026-10-26T19:50:08.108Z"
+      "lastSeen": "2026-10-26T19:51:48.907Z"
     },
     {
       "key": "thread-PRRT_kwDOVPlsoc6wbRug",
@@ -48,12 +56,16 @@
       "line": 9,
       "title": "Rewrite every historic entry in the changelog into categories.",
       "body": "@michaeltomlinsontuks: Rewrite every historic entry in the changelog into categories.",
-      "headSha": "0f1ab7323878dfcf5ae0a97487cbe79e5bcd4cc1",
+      "headSha": "5338d5022dab2f2aae48235a40c08cdab0c67edb",
       "thread": "PRRT_kwDOVPlsoc6wbRug",
       "version": "1",
-      "state": "open",
+      "state": "dismissed",
+      "resolution": {
+        "by": "judge",
+        "justification": "Scope explicitly marks “changes to existing changelog entries” Out. Please propose categorizing historic entries in a follow-up issue."
+      },
       "firstSeen": "2026-10-26T19:50:08.108Z",
-      "lastSeen": "2026-10-26T19:50:08.108Z"
+      "lastSeen": "2026-10-26T19:51:48.907Z"
     }
   ],
   "decided": [],
