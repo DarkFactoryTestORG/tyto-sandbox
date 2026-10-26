@@ -13,3 +13,4 @@
 | flow/final-gates | done | e2922e6fe225 | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
 | flow/review-images | done | e2922e6fe225 | 2 review image(s) built for c66b6b4e894d |
 | flow/review-seed | done | e2922e6fe225 | database seeded with the review scenario review |
+| flow/preview | done | e2922e6fe225 | preview at http://62-tyto-sandbox.localtest.me:8080/ for c66b6b4e894d (started in 5.6 s) |
