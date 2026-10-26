@@ -16,3 +16,4 @@
 | flow/review-images | done | 9acda9425cb8 | 2 review image(s) built for 074fef7d37ea |
 | flow/review-seed | done | 9acda9425cb8 | database seeded with the review scenario review |
 | flow/preview | done | 9acda9425cb8 | preview at http://79-tyto-sandbox.localtest.me:8080/ for 074fef7d37ea (started in 4.3 s) |
+| flow/smoke-evidence | done | 9acda9425cb8 | evidence disabled in factory.yaml |
