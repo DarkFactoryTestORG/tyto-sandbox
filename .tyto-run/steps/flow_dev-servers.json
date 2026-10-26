@@ -1,0 +1,18 @@
+{
+  "key": "flow/dev-servers",
+  "seq": 3,
+  "specHash": "f85106d425859baace4209b6cfbddfe68464440cafe9ed3c862424c0af6ae6d8",
+  "status": "done",
+  "summary": "ready: api http://127.0.0.1:4000, web http://127.0.0.1:3000",
+  "result": {
+    "status": "done",
+    "summary": "ready: api http://127.0.0.1:4000, web http://127.0.0.1:3000",
+    "facts": {
+      "ready": true,
+      "urls": {
+        "api": "http://127.0.0.1:4000",
+        "web": "http://127.0.0.1:3000"
+      }
+    }
+  }
+}
