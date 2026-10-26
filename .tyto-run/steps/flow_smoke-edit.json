@@ -1,0 +1,24 @@
+{
+  "key": "flow/smoke-edit",
+  "seq": 5,
+  "specHash": "5403553ecdbef34fe3cbae317b0f23abad658d187eb7b2cf7c0cab1fd16c02c0",
+  "status": "clarify",
+  "summary": "asked (entry-wording): Should the changelog entry use the issue's Summary word for word, or a shorter wording?",
+  "result": {
+    "status": "clarify",
+    "summary": "asked (entry-wording): Should the changelog entry use the issue's Summary word for word, or a shorter wording?",
+    "clarification": {
+      "id": "entry-wording",
+      "question": "Should the changelog entry use the issue's Summary word for word, or a shorter wording?",
+      "options": [
+        "Word for word",
+        "Shorter"
+      ],
+      "blocks": "T1"
+    },
+    "usage": {
+      "turns": 1,
+      "costUsd": 0.003525
+    }
+  }
+}
