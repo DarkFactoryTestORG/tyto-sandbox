@@ -25,3 +25,4 @@ Resolved the changelog conflict preserving both entries; lint, typecheck, and al
 | flow/ledger@3 | done | 6ba1b31efcdb | No feedback. 0 open (0 required) |
 | flow/judge@3 | skipped | 6ba1b31efcdb | skipped: steps.ledger.open > 0 \|\| steps.ledger.conflicted is false |
 | flow/final-gates@2 | done | 6ba1b31efcdb | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
+| flow/review-images@2 | done | 6ba1b31efcdb | 2 review image(s) built for b380ee696cb5 |
