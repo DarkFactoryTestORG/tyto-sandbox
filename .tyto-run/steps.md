@@ -15,3 +15,4 @@
 | flow/final-gates | done | 2c1d5719a25f | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
 | flow/review-images | done | 2c1d5719a25f | 2 review image(s) built for a471e1d27e0e |
 | flow/review-seed | done | 2c1d5719a25f | database seeded with the review scenario review |
+| flow/preview | done | 2c1d5719a25f | preview at http://91-tyto-sandbox.localtest.me:8080/ for a471e1d27e0e (started in 5.1 s) |
