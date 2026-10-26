@@ -8,3 +8,4 @@
 | flow/smoke-edit | done | 510cac55c41b | Added one Unreleased changelog entry for smoke run 202610260937: happy path (#58). |
 | flow/pr-open | done | 510cac55c41b | draft PR open |
 | flow/sync | done | 510cac55c41b | up to date with dev at 73aa23a7a2c4 |
+| flow/ledger | done | 510cac55c41b | No feedback. 0 open (0 required) |
