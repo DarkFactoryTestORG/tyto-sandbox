@@ -17,3 +17,4 @@
 | flow/review-images | done | 5403553ecdbe | 2 review image(s) built for f15473b60304 |
 | flow/review-seed | done | 5403553ecdbe | database seeded with the review scenario review |
 | flow/preview | done | 5403553ecdbe | preview at http://103-tyto-sandbox.localtest.me:8080/ for f15473b60304 (started in 3.9 s) |
+| flow/smoke-evidence | done | 5403553ecdbe | Captured E1: http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/103/4d9b5f3e5bfe662492a77688b17a909fead7cfb1/E1/smoke-lint.txt |
