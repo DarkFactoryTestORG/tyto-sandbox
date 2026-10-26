@@ -14,3 +14,4 @@
 | flow/ledger | done | 5403553ecdbe | No feedback. 0 open (0 required) |
 | flow/judge | skipped | 5403553ecdbe | skipped: steps.ledger.open > 0 \|\| steps.ledger.conflicted is false |
 | flow/final-gates | done | 5403553ecdbe | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
+| flow/review-images | done | 5403553ecdbe | 2 review image(s) built for f15473b60304 |
