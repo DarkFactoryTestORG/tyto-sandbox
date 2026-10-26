@@ -15,3 +15,4 @@
 | flow/final-gates | done | 6bee6f583c62 | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
 | flow/review-images | done | 6bee6f583c62 | 2 review image(s) built for c53366eeb20f |
 | flow/review-seed | done | 6bee6f583c62 | database seeded with the review scenario review |
+| flow/preview | done | 6bee6f583c62 | preview at http://77-tyto-sandbox.localtest.me:8080/ for c53366eeb20f (started in 5.3 s) |
