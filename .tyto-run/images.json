@@ -1,0 +1,16 @@
+{
+  "sha": "e0861efccadf1de88fd3288931e80320b86e27c6",
+  "build": "b-82a292ee3ef4",
+  "images": [
+    {
+      "app": "api",
+      "image": "ghcr.io/darkfactorytestorg/tyto-sandbox-api:e0861efccadf1de88fd3288931e80320b86e27c6",
+      "digest": "sha256:a653d18e52d7a85e05df4212ca64b525054b9b14cec3a691bf2751b25dd218cd"
+    },
+    {
+      "app": "web",
+      "image": "ghcr.io/darkfactorytestorg/tyto-sandbox-web:e0861efccadf1de88fd3288931e80320b86e27c6",
+      "digest": "sha256:87e92813ec649f239d66a5fe8580c21dd681348543ba6cf009865a439d4db36d"
+    }
+  ]
+}
