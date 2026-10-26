@@ -10,3 +10,4 @@
 | flow/smoke-check | done | e09b632f9765 | Verified the one-line entry matches the Summary; no correction needed, and format checks pass. |
 | flow/pr-open | done | e09b632f9765 | draft PR open |
 | flow/sync | done | e09b632f9765 | up to date with dev at 73aa23a7a2c4 |
+| flow/ledger | done | e09b632f9765 | No feedback. 0 open (0 required) |
