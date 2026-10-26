@@ -1,0 +1,24 @@
+[
+  {
+    "id": "E1",
+    "kind": "log",
+    "caption": "pnpm turbo run lint passed (exit 0; 10 successful tasks).",
+    "sha": "2c7298ae90cf456ccf64f19724350308f6fa7163",
+    "key": "DarkFactoryTestORG/tyto-sandbox/62/2c7298ae90cf456ccf64f19724350308f6fa7163/E1/.smoke-lint.log",
+    "url": "http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/62/2c7298ae90cf456ccf64f19724350308f6fa7163/E1/.smoke-lint.log",
+    "sha256": "e8056ff1b6b974402c6db1c335d6be57553344ed47ba5aa9a0f26f49d098b58a",
+    "bytes": 7452,
+    "step": "flow/smoke-edit"
+  },
+  {
+    "id": "E1",
+    "kind": "log",
+    "caption": "Lint gate output for the delivered code",
+    "sha": "b4bce6be8eecc1d01e6774242de80efe2476e895",
+    "key": "DarkFactoryTestORG/tyto-sandbox/62/b4bce6be8eecc1d01e6774242de80efe2476e895/E1/smoke-lint.txt",
+    "url": "http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/62/b4bce6be8eecc1d01e6774242de80efe2476e895/E1/smoke-lint.txt",
+    "sha256": "09c91d3bc092f9ece357c5f772bfc9213da0f308bdf5f66efae53e45c85a7000",
+    "bytes": 7518,
+    "step": "flow/smoke-evidence"
+  }
+]
