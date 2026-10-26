@@ -26,3 +26,5 @@ Resolved the changelog conflict preserving both entries; lint, typecheck, and al
 | flow/preview@2 | done | 6ba1b31efcdb | preview at http://96-tyto-sandbox.localtest.me:8080/ for b380ee696cb5 (started in 4.4 s) |
 | flow/smoke-evidence@2 | done | 6ba1b31efcdb | Captured E1: http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/96/eb2c6e279325cb6accd69f84eb5a53f0ba7c9d9f/E1/smoke-lint.txt |
 | flow/prepare | done | 6ba1b31efcdb | on tyto/96-smoke-happy-path-202610262012 (fetched (f9440d268e4a)), base 606dfb0efc97, run state restored from 011336dd22d9 |
+| flow/dev-servers | done | 6ba1b31efcdb | ready: api http://127.0.0.1:4000, web http://127.0.0.1:3000 |
+| flow/sync@3 | done | 6ba1b31efcdb | up to date with dev at 606dfb0efc97 |
