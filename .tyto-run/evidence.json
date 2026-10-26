@@ -1,0 +1,46 @@
+[
+  {
+    "id": "E1",
+    "kind": "log",
+    "caption": "pnpm turbo run lint passed (10 successful tasks).",
+    "sha": "1e795600bd438d1cb8efc07388f1303bf45b7128",
+    "key": "DarkFactoryTestORG/tyto-sandbox/96/1e795600bd438d1cb8efc07388f1303bf45b7128/E1/smoke-lint.log",
+    "url": "http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/96/1e795600bd438d1cb8efc07388f1303bf45b7128/E1/smoke-lint.log",
+    "sha256": "63714587b9094e18719f84c030312e1f9377cb01a7511ff6e6adb74d899ad8b6",
+    "bytes": 7682,
+    "step": "flow/smoke-edit"
+  },
+  {
+    "id": "E2",
+    "kind": "ui",
+    "caption": "Login page at /login on the running web app.",
+    "sha": "1e795600bd438d1cb8efc07388f1303bf45b7128",
+    "key": "DarkFactoryTestORG/tyto-sandbox/96/1e795600bd438d1cb8efc07388f1303bf45b7128/E2/smoke-login.png",
+    "url": "http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/96/1e795600bd438d1cb8efc07388f1303bf45b7128/E2/smoke-login.png",
+    "sha256": "17dcf2d1e1a809bad65b0e6b7b4991ed1db0c99359b5500aa37ee7e4390a5298",
+    "bytes": 13708,
+    "step": "flow/smoke-edit"
+  },
+  {
+    "id": "E1",
+    "kind": "log",
+    "caption": "Lint gate output for the delivered code",
+    "sha": "ab2984451a0ad6a3e8b62d2763f36f2b406af5b7",
+    "key": "DarkFactoryTestORG/tyto-sandbox/96/ab2984451a0ad6a3e8b62d2763f36f2b406af5b7/E1/smoke-lint.txt",
+    "url": "http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/96/ab2984451a0ad6a3e8b62d2763f36f2b406af5b7/E1/smoke-lint.txt",
+    "sha256": "0efb46e13aa0e75848b41679624441e56909dc873b8e01ff65e33636e160cfec",
+    "bytes": 7749,
+    "step": "flow/smoke-evidence"
+  },
+  {
+    "id": "E1",
+    "kind": "log",
+    "caption": "Lint gate output for the delivered code",
+    "sha": "eb2c6e279325cb6accd69f84eb5a53f0ba7c9d9f",
+    "key": "DarkFactoryTestORG/tyto-sandbox/96/eb2c6e279325cb6accd69f84eb5a53f0ba7c9d9f/E1/smoke-lint.txt",
+    "url": "http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/96/eb2c6e279325cb6accd69f84eb5a53f0ba7c9d9f/E1/smoke-lint.txt",
+    "sha256": "7e6241e5e2bf42c6884929428493fd06123c329ca666311f2b2d398a549455ce",
+    "bytes": 7749,
+    "step": "flow/smoke-evidence@2"
+  }
+]
