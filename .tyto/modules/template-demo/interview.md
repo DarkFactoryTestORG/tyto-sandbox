@@ -7,13 +7,17 @@ Ask for the intended outcome, scope and observable result, a few questions at a 
 ## Example
 
 ### Summary
+
 Make the preview obviously ours: an ocean-blue page background.
 
 ### Background colour
+
 Ocean blue (#4fa3ff)
 
 ### Custom colour
+
 _No response_
 
 ### Notes
+
 _No response_
