@@ -4,3 +4,5 @@
 |---|---|---|---|
 | flow/prepare | done | 9abb46564867 | on tyto/67-smoke-happy-path-202610261440 (created at the base), base 73aa23a7a2c4 |
 | flow/seed | done | 9abb46564867 | database reset to the base snapshot |
+| flow/dev-servers | done | 9abb46564867 | no apps.<name>.dev in the repo config: nothing to start |
+| flow/baseline | done | 9abb46564867 | baseline for 73aa23a7a2c4 from the warmer: no failing test |
