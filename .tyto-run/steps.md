@@ -6,3 +6,5 @@
 | flow/seed | done | a66487ef64b4 | database reset to the base snapshot |
 | flow/dev-servers | done | a66487ef64b4 | ready: api http://127.0.0.1:4000, web http://127.0.0.1:3000 |
 | flow/baseline | done | a66487ef64b4 | baseline for cf78b51ccbc8 from the warmer: no failing test |
+| flow/smoke-edit | clarify | a66487ef64b4 | asked (entry-wording): Should the changelog entry use the issue's Summary word for word, or a shorter wording? |
+| question/flow/smoke-edit/entry-wording | done | a66487ef64b4 | Should the changelog entry use the issue's Summary word for word, or a shorter wording? |

@@ -1,0 +1,16 @@
+{
+  "key": "question/flow/smoke-edit/entry-wording",
+  "seq": 6,
+  "specHash": "a66487ef64b477221aa6266fd78d68ad80ba5678a94bc728c6f36312f55af27b",
+  "status": "done",
+  "summary": "Should the changelog entry use the issue's Summary word for word, or a shorter wording?",
+  "result": {
+    "id": "entry-wording",
+    "question": "Should the changelog entry use the issue's Summary word for word, or a shorter wording?",
+    "options": [
+      "Word for word",
+      "Shorter"
+    ],
+    "blocks": "T1"
+  }
+}
