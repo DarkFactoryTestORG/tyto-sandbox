@@ -8,3 +8,4 @@
 | flow/dev-servers | done | 46da4bb00775 | ready: api http://127.0.0.1:4000, web http://127.0.0.1:3000 |
 | flow/smoke-edit | done | 46da4bb00775 | Added an Unreleased changelog entry for smoke run 202610261929: recovery (#93). |
 | flow/smoke-check | done | 46da4bb00775 | Verified the one-line changelog entry matches the Summary; no correction needed, and formatting passes. |
+| flow/pr-open | done | 46da4bb00775 | draft PR open |
