@@ -1,6 +1,6 @@
 {
   "key": "flow/dev-servers",
-  "seq": 3,
+  "seq": 6,
   "specHash": "2c1d5719a25fa7a15516fd414a7d8ac1325f5971548165d95a7479cabc592dd6",
   "status": "done",
   "summary": "ready: api http://127.0.0.1:4000, web http://127.0.0.1:3000",

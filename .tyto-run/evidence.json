@@ -1,0 +1,24 @@
+[
+  {
+    "id": "E1",
+    "kind": "log",
+    "caption": "pnpm turbo run lint passed: 10 successful tasks (smoke-edit workspace).",
+    "sha": "2ea4119c61b81588713c825853cc8d9ecc03a57a",
+    "key": "DarkFactoryTestORG/tyto-sandbox/91/2ea4119c61b81588713c825853cc8d9ecc03a57a/E1/smoke-lint.log",
+    "url": "http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/91/2ea4119c61b81588713c825853cc8d9ecc03a57a/E1/smoke-lint.log",
+    "sha256": "f371cddb5d48a21d8cd5514737387d9c41ee844d78fb479a466d6de7fc5bbb11",
+    "bytes": 7682,
+    "step": "flow/smoke-edit"
+  },
+  {
+    "id": "E2",
+    "kind": "ui",
+    "caption": "Login page at /login on the running web app.",
+    "sha": "2ea4119c61b81588713c825853cc8d9ecc03a57a",
+    "key": "DarkFactoryTestORG/tyto-sandbox/91/2ea4119c61b81588713c825853cc8d9ecc03a57a/E2/smoke-login.png",
+    "url": "http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/91/2ea4119c61b81588713c825853cc8d9ecc03a57a/E2/smoke-login.png",
+    "sha256": "e3ff1abcf17052f6468872bacdaa03be660fbb3fbba888ce77c768d24a4d6402",
+    "bytes": 15611,
+    "step": "flow/smoke-edit"
+  }
+]
