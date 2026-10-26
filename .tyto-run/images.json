@@ -1,15 +1,15 @@
 {
-  "sha": "20018014f8877b32624a85e0d51bfaefebf38936",
-  "build": "b-de2544965576",
+  "sha": "d1e116c9e31a22aaa89c2b3d884bbaaed15c7d4e",
+  "build": "b-3caa615bb7fe",
   "images": [
     {
       "app": "api",
-      "image": "ghcr.io/darkfactorytestorg/tyto-sandbox-api:20018014f8877b32624a85e0d51bfaefebf38936",
+      "image": "ghcr.io/darkfactorytestorg/tyto-sandbox-api:d1e116c9e31a22aaa89c2b3d884bbaaed15c7d4e",
       "digest": "sha256:a653d18e52d7a85e05df4212ca64b525054b9b14cec3a691bf2751b25dd218cd"
     },
     {
       "app": "web",
-      "image": "ghcr.io/darkfactorytestorg/tyto-sandbox-web:20018014f8877b32624a85e0d51bfaefebf38936",
+      "image": "ghcr.io/darkfactorytestorg/tyto-sandbox-web:d1e116c9e31a22aaa89c2b3d884bbaaed15c7d4e",
       "digest": "sha256:87e92813ec649f239d66a5fe8580c21dd681348543ba6cf009865a439d4db36d"
     }
   ]
