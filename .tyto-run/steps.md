@@ -10,3 +10,4 @@
 | flow/smoke-edit | done | 5403553ecdbe | Added a concise Unreleased entry for clarification smoke run 202610262037 (#103). |
 | flow/smoke-check | done | 5403553ecdbe | Verified the one-line entry matches the Summary and requested shorter wording; format checks pass, with no changes needed. |
 | flow/pr-open | done | 5403553ecdbe | draft PR open |
+| flow/sync | done | 5403553ecdbe | up to date with dev at 606dfb0efc97 |
