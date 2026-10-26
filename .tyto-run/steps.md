@@ -16,3 +16,4 @@
 | flow/review-images | done | 6ba1b31efcdb | 2 review image(s) built for 67459b54e143 |
 | flow/review-seed | done | 6ba1b31efcdb | database seeded with the review scenario review |
 | flow/preview | done | 6ba1b31efcdb | preview at http://96-tyto-sandbox.localtest.me:8080/ for 67459b54e143 (started in 4.1 s) |
+| flow/smoke-evidence | done | 6ba1b31efcdb | Captured E1: http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/96/ab2984451a0ad6a3e8b62d2763f36f2b406af5b7/E1/smoke-lint.txt |
