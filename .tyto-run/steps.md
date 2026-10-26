@@ -9,3 +9,4 @@
 | flow/smoke-edit | done | 6bee6f583c62 | Added a concise clarification smoke-run entry under Unreleased for #77; lint and formatting pass. |
 | flow/smoke-check | done | 6bee6f583c62 | Verified the concise entry matches the Summary; no changes needed, and formatting passes. |
 | flow/pr-open | done | 6bee6f583c62 | draft PR open |
+| flow/sync | done | 6bee6f583c62 | up to date with dev at 8c29b27bf550 |
