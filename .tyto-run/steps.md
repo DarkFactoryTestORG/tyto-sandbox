@@ -10,3 +10,4 @@
 | flow/smoke-check | done | 52eb39a66234 | Verified the one-line changelog entry matches the Summary; no correction needed, and formatting passes. |
 | flow/pr-open | done | 52eb39a66234 | draft PR open |
 | flow/sync | done | 52eb39a66234 | up to date with dev at 606dfb0efc97 |
+| flow/ledger | done | 52eb39a66234 | No feedback. 0 open (0 required) |
