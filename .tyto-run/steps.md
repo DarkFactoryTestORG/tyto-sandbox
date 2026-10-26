@@ -10,3 +10,4 @@
 | flow/smoke-check | done | f85106d42585 | Verified the one-line changelog entry matches the Summary; no correction needed, and format checks pass. |
 | flow/pr-open | done | f85106d42585 | draft PR open |
 | flow/sync | done | f85106d42585 | up to date with dev at 8c29b27bf550 |
+| flow/ledger | done | f85106d42585 | No feedback. 0 open (0 required) |
