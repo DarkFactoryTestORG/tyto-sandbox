@@ -13,3 +13,4 @@
 | flow/final-gates | done | 947db087f867 | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
 | flow/review-images | done | 947db087f867 | 2 review image(s) built for f7a9420eafd0 |
 | flow/review-seed | done | 947db087f867 | database seeded with the review scenario review |
+| flow/preview | done | 947db087f867 | preview at http://55-tyto-sandbox.localtest.me:8080/ for f7a9420eafd0 (started in 17.6 s) |
