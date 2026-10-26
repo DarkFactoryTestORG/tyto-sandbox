@@ -23,3 +23,5 @@
 
 Resolved the changelog merge conflict preserving both entries; lint, typecheck, and all tests pass. |
 | flow/ledger@3 | done | 52eb39a66234 | No feedback. 0 open (0 required) |
+| flow/judge@3 | skipped | 52eb39a66234 | skipped: steps.ledger.open > 0 \|\| steps.ledger.conflicted is false |
+| flow/final-gates@2 | done | 52eb39a66234 | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
