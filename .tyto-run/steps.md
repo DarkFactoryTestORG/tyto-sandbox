@@ -10,3 +10,4 @@
 | flow/smoke-check | done | 6ba1b31efcdb | Verified the one-line entry matches the Summary; no correction needed, and format checks passed. |
 | flow/pr-open | done | 6ba1b31efcdb | draft PR open |
 | flow/sync | done | 6ba1b31efcdb | up to date with dev at cf78b51ccbc8 |
+| flow/ledger | done | 6ba1b31efcdb | No feedback. 0 open (0 required) |
