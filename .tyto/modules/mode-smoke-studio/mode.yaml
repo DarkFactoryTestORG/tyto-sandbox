@@ -1,0 +1,9 @@
+# The smoke mode (phase 14): the framework's proof on Plotline. Label kind:smoke.
+id: smoke-studio
+version: 0.1.0
+scope: library
+description: "Copy of smoke: One changelog entry through every generic brick, for the scenario runner"
+template: blocks
+blocks: [ summary, scope, requirements, tasks, evidence-log-smoke-studio, evidence-screenshot-smoke-studio, smoke-indicators ]
+workflow: smoke-smoke-studio
+prTemplate: smoke

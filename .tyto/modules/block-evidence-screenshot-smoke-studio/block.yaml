@@ -1,0 +1,9 @@
+id: evidence-screenshot-smoke-studio
+version: 0.1.0
+scope: library
+description: Screenshots from the running app
+evidence: { capture: ui }
+has: evidenceScreenshot
+needs: [ browser ]
+instructions: { smoke-edit: implement.md }
+pr: { section: Screenshots }

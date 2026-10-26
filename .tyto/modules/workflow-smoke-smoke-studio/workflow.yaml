@@ -1,0 +1,44 @@
+# The smoke workflow (phase 14, CONTEXT §12): one trivial agent step through every generic brick,
+# on Plotline, to prove the framework end to end. The scenario runner (tests/live/smoke/) drives it
+# through every failure path; the smoke indicators switch test fragments on for smoke-edit.
+id: smoke-smoke-studio
+version: 0.1.0
+scope: library
+description: Prepare, seed, the dev servers, baseline, one changelog entry, the draft PR, sync, the ledger and the Judge, final gates, review images, review seed, preview, hand-off
+pod: { profile: full, browser: true }
+reentry: { from: sync }
+params:
+  gates: { type: array, items: { type: string }, default: [ lint, format, typecheck, tests-all ] }
+  # smoke-edit's turn budget; mode smoke-tight sets 1 to trip fuse:turns. 0: the usual budget
+  # (limits.bricks, else brick.yaml).
+  editTurns: { type: number, default: 0 }
+flow:
+  - brick: prepare
+  - brick: seed
+    when: pod.db
+  # Phase 18: the apps in dev mode for smoke-edit's E2 screenshot; reruns in every attempt.
+  - brick: dev-servers
+    when: pod.app
+  - brick: baseline
+  - brick: smoke-edit
+    agent: smoke
+    with: { fragments: [ smoke-clarify, smoke-egress, smoke-switch-branch, smoke-rewrite-history ] }
+    budget: { turns: '{{params.editTurns}}' }
+  - brick: smoke-check
+    agent: reviewer
+  - brick: pr-open
+  - brick: sync
+  - brick: ledger
+  - brick: judge
+    agent: judge
+    when: steps.ledger.open > 0 || steps.ledger.conflicted
+    loopback: { to: ledger, max: 3, while: steps.judge.recheck, stalled: steps.ledger.stalled }
+  - brick: final-gates
+    with: { gates: '{{params.gates}}' }
+  - brick: review-images
+  - brick: review-seed
+    when: pod.db
+  - brick: preview
+    when: pod.app
+  - brick: smoke-evidence
+  - brick: handoff
