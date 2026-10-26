@@ -1,1 +1,2 @@
 {"type":"run-start","ts":"2026-10-26T19:30:00.502Z","attempt":1}
+{"ts":"2026-10-26T19:31:18.169Z","runId":"DarkFactoryTestORG/tyto-sandbox#89/attempt-1","step":"flow/smoke-edit","brick":"smoke-edit","role":"Implementer","tier":"low","provider":"openai-codex","model":"gpt-6.1-sol","session":"01a179b1-2e94-7719-b208-5c011c83c6fc","stop":"tool","promptKind":"full","inputPrefix":"<step>","turns":12,"inputTokens":26017,"outputTokens":780,"cacheReadTokens":55168,"cacheWriteTokens":0,"costUsd":0.065351,"costSource":"harness"}
