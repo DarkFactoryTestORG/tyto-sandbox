@@ -36,3 +36,4 @@ Updated the new entry to past tense, dismissed two out-of-scope requests, and ve
 | flow/judge@4 | skipped | a9fec7e354ef | skipped: steps.ledger.open > 0 \|\| steps.ledger.conflicted is false |
 | flow/final-gates@3 | done | a9fec7e354ef | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
 | flow/review-images@3 | done | a9fec7e354ef | 2 review image(s) built for d1e116c9e31a |
+| flow/review-seed@3 | done | a9fec7e354ef | database seeded with the review scenario review |
