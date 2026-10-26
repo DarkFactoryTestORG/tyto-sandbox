@@ -19,7 +19,6 @@
 
 Resolved the changelog merge conflict preserving both entries; lint, typecheck, and all tests pass. |
 | flow/ledger@3 | done | 52eb39a66234 | No feedback. 0 open (0 required) |
-| flow/judge@3 | skipped | 52eb39a66234 | skipped: steps.ledger.open > 0 \|\| steps.ledger.conflicted is false |
 | flow/final-gates@2 | done | 52eb39a66234 | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
 | flow/review-images@2 | done | 52eb39a66234 | 2 review image(s) built for 544b4867b734 |
 | flow/review-seed@2 | done | 52eb39a66234 | database seeded with the review scenario review |
@@ -29,3 +28,5 @@ Resolved the changelog merge conflict preserving both entries; lint, typecheck, 
 | flow/dev-servers | done | 52eb39a66234 | ready: api http://127.0.0.1:4000, web http://127.0.0.1:3000 |
 | flow/sync@3 | done | 52eb39a66234 | up to date with dev at 374e7072ff30 |
 | flow/ledger@4 | done | 52eb39a66234 | 3 items: 3 open. 3 open (3 required) |
+| flow/judge@3 | clarify | 52eb39a66234 | asked (changelog-wording-approval): The reviewer requested your explicit approval before merge. I applied the past-tense request: “Completed smoke run 20... |
+| question/flow/judge/changelog-wording-approval | done | 52eb39a66234 | The reviewer requested your explicit approval before merge. I applied the past-tense request: “Completed smoke run 202610262037: happy path (#101)”. Do you approve keeping this wording? The README request was dismissed because Scope explicitly excludes it. |
