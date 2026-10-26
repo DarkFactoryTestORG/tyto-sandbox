@@ -52,6 +52,9 @@ services:
 
 # Review images and the preview (phases 08 and 11). NODE_ENV=preview keeps the dev auth bypass
 # allowed: the API refuses PLOTLINE_DEV_AUTH=1 only under NODE_ENV=production.
+# `dev` (phase 18): the apps in dev mode inside the issue pod, started by the dev-servers brick and
+# reused by every agent step. The api's dev script builds once and does not watch, so the
+# supervisor restarts it when its sources or the migrations change; next dev reloads by itself.
 apps:
   api:
     dockerfile: apps/api/Dockerfile
@@ -61,6 +64,14 @@ apps:
       DATABASE_URL: '{{services.postgres.url}}'
       NODE_ENV: preview
       PLOTLINE_DEV_AUTH: '1'
+    dev:
+      command: pnpm --filter @plotline/api dev
+      readyTimeoutSeconds: 180
+      env:
+        DATABASE_URL: '{{services.postgres.url}}'
+        NODE_ENV: development
+        PLOTLINE_DEV_AUTH: '1'
+      restartOn: ['apps/api/src/**', 'packages/db/src/**', 'packages/db/migrations/**', 'packages/shared/src/**']
   web:
     dockerfile: apps/web/Dockerfile
     port: 3000
@@ -68,6 +79,11 @@ apps:
     entry: true
     env:
       API_URL: '{{apps.api.url}}'
+    dev:
+      command: pnpm --filter @plotline/web dev
+      readyTimeoutSeconds: 240
+      env:
+        API_URL: '{{apps.api.url}}'
 
 buildCache: [turbo, sccache]
 
