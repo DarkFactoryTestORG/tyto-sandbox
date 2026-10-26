@@ -1,0 +1,8 @@
+{
+  "key": "flow/judge",
+  "seq": 15,
+  "specHash": "a66487ef64b477221aa6266fd78d68ad80ba5678a94bc728c6f36312f55af27b",
+  "status": "skipped",
+  "summary": "skipped: steps.ledger.open > 0 || steps.ledger.conflicted is false",
+  "result": null
+}
