@@ -8,3 +8,4 @@
 | flow/baseline | done | 52eb39a66234 | baseline for 606dfb0efc97 from the warmer: no failing test |
 | flow/smoke-edit | done | 52eb39a66234 | Added one Unreleased entry for smoke run 202610262037: happy path (#101). |
 | flow/smoke-check | done | 52eb39a66234 | Verified the one-line changelog entry matches the Summary; no correction needed, and formatting passes. |
+| flow/pr-open | done | 52eb39a66234 | draft PR open |
