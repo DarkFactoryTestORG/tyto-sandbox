@@ -1,11 +1,11 @@
 {
   "key": "flow/prepare",
-  "seq": 1,
+  "seq": 16,
   "specHash": "f85106d425859baace4209b6cfbddfe68464440cafe9ed3c862424c0af6ae6d8",
   "status": "done",
-  "summary": "on tyto/75-smoke-happy-path-202610261513 (created at the base), base 8c29b27bf550",
+  "summary": "on tyto/75-smoke-happy-path-202610261513 (fetched (21d55384c0eb)), base 2ea4119c61b8, run state restored from 74cab47a8f54",
   "result": {
     "status": "done",
-    "summary": "on tyto/75-smoke-happy-path-202610261513 (created at the base), base 8c29b27bf550"
+    "summary": "on tyto/75-smoke-happy-path-202610261513 (fetched (21d55384c0eb)), base 2ea4119c61b8, run state restored from 74cab47a8f54"
   }
 }
