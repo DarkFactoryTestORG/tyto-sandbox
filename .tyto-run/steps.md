@@ -9,3 +9,4 @@
 | flow/smoke-edit | done | f85106d42585 | Added an Unreleased entry for smoke run 202610261513’s happy path (#75). |
 | flow/smoke-check | done | f85106d42585 | Verified the one-line changelog entry matches the Summary; no correction needed, and format checks pass. |
 | flow/pr-open | done | f85106d42585 | draft PR open |
+| flow/sync | done | f85106d42585 | up to date with dev at 8c29b27bf550 |
