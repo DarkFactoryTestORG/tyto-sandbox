@@ -15,10 +15,6 @@
 | flow/review-seed | done | a9fec7e354ef | database seeded with the review scenario review |
 | flow/preview | done | a9fec7e354ef | preview at http://89-tyto-sandbox.localtest.me:8080/ for 8b43085b6442 (started in 4.2 s) |
 | flow/smoke-evidence | done | a9fec7e354ef | Captured E1: http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/89/fb9e30619b862271a39a56795351d881488bcafe/E1/smoke-lint.txt |
-| flow/prepare | done | a9fec7e354ef | on tyto/89-smoke-happy-path-202610261929 (fetched (c6ab3e5b53e1)), base cf78b51ccbc8, run state restored from 944502077a85 |
-| flow/dev-servers | done | a9fec7e354ef | ready: api http://127.0.0.1:4000, web http://127.0.0.1:3000 |
-| flow/sync@2 | done | a9fec7e354ef | merging dev at cf78b51ccbc8 conflicts in 1 path(s): CHANGELOG.md |
-| flow/ledger@2 | done | a9fec7e354ef | No feedback. 0 open (0 required) |
 | flow/judge@2 | done | a9fec7e354ef | round 2: no open items; the merge with dev resolved
 
 Resolved the changelog conflict preserving both entries; lint, typecheck, tests and changelog formatting pass. |
@@ -29,3 +25,4 @@ Resolved the changelog conflict preserving both entries; lint, typecheck, tests 
 | flow/review-seed@2 | done | a9fec7e354ef | database seeded with the review scenario review |
 | flow/preview@2 | done | a9fec7e354ef | preview at http://89-tyto-sandbox.localtest.me:8080/ for 20018014f887 (started in 4.4 s) |
 | flow/smoke-evidence@2 | done | a9fec7e354ef | Captured E1: http://evidence.localtest.me:8080/evidence/DarkFactoryTestORG/tyto-sandbox/89/ff4d9e99fd879d8e55d7dac9fbf411ce02beacc1/E1/smoke-lint.txt |
+| flow/prepare | done | a9fec7e354ef | on tyto/89-smoke-happy-path-202610261929 (fetched (ff4fd9485c07)), base cf78b51ccbc8, run state restored from abfcc5cea9f2 |
