@@ -7,3 +7,4 @@
 | flow/baseline | done | e2922e6fe225 | baseline for 73aa23a7a2c4 from the warmer: no failing test |
 | flow/smoke-edit | done | e2922e6fe225 | Added one Unreleased changelog entry for smoke run 202610261008: happy path (#62). |
 | flow/pr-open | done | e2922e6fe225 | draft PR open |
+| flow/sync | done | e2922e6fe225 | up to date with dev at 73aa23a7a2c4 |
