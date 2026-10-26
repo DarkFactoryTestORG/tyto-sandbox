@@ -14,3 +14,4 @@
 | flow/judge | skipped | 2c1d5719a25f | skipped: steps.ledger.open > 0 \|\| steps.ledger.conflicted is false |
 | flow/final-gates | done | 2c1d5719a25f | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
 | flow/review-images | done | 2c1d5719a25f | 2 review image(s) built for a471e1d27e0e |
+| flow/review-seed | done | 2c1d5719a25f | database seeded with the review scenario review |
