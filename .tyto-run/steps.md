@@ -8,3 +8,4 @@
 | flow/prepare | done | 5403553ecdbe | on tyto/103-smoke-clarification-202610262037 (fetched (ae194ac0d964)), base 606dfb0efc97 |
 | flow/dev-servers | done | 5403553ecdbe | ready: api http://127.0.0.1:4000, web http://127.0.0.1:3000 |
 | flow/smoke-edit | done | 5403553ecdbe | Added a concise Unreleased entry for clarification smoke run 202610262037 (#103). |
+| flow/smoke-check | done | 5403553ecdbe | Verified the one-line entry matches the Summary and requested shorter wording; format checks pass, with no changes needed. |
