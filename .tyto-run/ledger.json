@@ -4,8 +4,8 @@
     "number": 107,
     "url": "https://github.com/DarkFactoryTestORG/tyto-sandbox/pull/107"
   },
-  "headSha": "1aed606367516b78943ac7a202f9fc939b6fce33",
-  "updatedAt": "2026-10-27T15:42:37.165Z",
+  "headSha": "960385eb9fcee60a99859a82cbe70a5784abc71f",
+  "updatedAt": "2026-10-27T15:43:34.970Z",
   "items": [
     {
       "key": "comment-6446394040",
@@ -14,11 +14,15 @@
       "url": "https://github.com/DarkFactoryTestORG/tyto-sandbox/pull/107#issuecomment-6446394040",
       "title": "Make the background Mint (#6fe3b4)",
       "body": "Make the background Mint (#6fe3b4)",
-      "headSha": "1aed606367516b78943ac7a202f9fc939b6fce33",
+      "headSha": "960385eb9fcee60a99859a82cbe70a5784abc71f",
       "version": "456d7d4c2ba3",
-      "state": "open",
+      "state": "fixed",
+      "resolution": {
+        "by": "judge",
+        "commit": "960385eb9fcee60a99859a82cbe70a5784abc71f"
+      },
       "firstSeen": "2026-10-27T15:42:37.165Z",
-      "lastSeen": "2026-10-27T15:42:37.165Z"
+      "lastSeen": "2026-10-27T15:43:34.970Z"
     }
   ],
   "decided": [],
