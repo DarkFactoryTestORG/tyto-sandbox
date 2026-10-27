@@ -1,11 +1,11 @@
 {
   "key": "flow/prepare",
-  "seq": 1,
+  "seq": 13,
   "specHash": "429dfa90af535a102697bcb01bf6c2af2d69b0a0fa4570c4c483ccea566726b2",
   "status": "done",
-  "summary": "on tyto/106-demo-background-colour-ocean-blue (created at the base), base 374e7072ff30",
+  "summary": "on tyto/106-demo-background-colour-ocean-blue (fetched (82574b8accd4)), base 374e7072ff30, run state restored from 4d11a3dac2e8",
   "result": {
     "status": "done",
-    "summary": "on tyto/106-demo-background-colour-ocean-blue (created at the base), base 374e7072ff30"
+    "summary": "on tyto/106-demo-background-colour-ocean-blue (fetched (82574b8accd4)), base 374e7072ff30, run state restored from 4d11a3dac2e8"
   }
 }
