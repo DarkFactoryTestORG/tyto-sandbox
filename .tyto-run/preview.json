@@ -1,7 +1,7 @@
 {
-  "sha": "578108732b9866efbf44309521cb38241c0e85fb",
+  "sha": "722302e570f9369f9b4c9c831ada03436500424f",
   "url": "http://106-tyto-sandbox.localtest.me:8080/",
-  "wokeInMs": 5083,
+  "wokeInMs": 13,
   "idleMinutes": 15,
-  "note": "Sign in to the preview with the shared credentials from make demo-help (PREVIEW_AUTH file in .demo.env).\n\nThen sign in to the app with a review account: [packages/db/seeds/review/README.md](https://github.com/DarkFactoryTestORG/tyto-sandbox/blob/578108732b9866efbf44309521cb38241c0e85fb/packages/db/seeds/review/README.md).\n\nThe preview sleeps after 15 minutes without requests and wakes on the next one, in about 5 seconds (measured when this head started).\n\nIt serves `578108732b98`."
+  "note": "Sign in to the preview with the shared credentials from make demo-help (PREVIEW_AUTH file in .demo.env).\n\nThen sign in to the app with a review account: [packages/db/seeds/review/README.md](https://github.com/DarkFactoryTestORG/tyto-sandbox/blob/722302e570f9369f9b4c9c831ada03436500424f/packages/db/seeds/review/README.md).\n\nThe preview sleeps after 15 minutes without requests and wakes on the next one, in about 1 seconds (measured when this head started).\n\nIt serves `722302e570f9`."
 }

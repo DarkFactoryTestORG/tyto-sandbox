@@ -25,3 +25,4 @@ Updated the background and label to Mint (#6fe3b4); lint, typecheck, and all tes
 | flow/final-gates@2 | done | 429dfa90af53 | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
 | flow/review-images@2 | done | 429dfa90af53 | 2 review image(s) built for 722302e570f9 |
 | flow/review-seed@2 | done | 429dfa90af53 | database seeded with the review scenario review |
+| flow/preview@2 | done | 429dfa90af53 | preview at http://106-tyto-sandbox.localtest.me:8080/ for 722302e570f9 (started in 0.0 s) |
