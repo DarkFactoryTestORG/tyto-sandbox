@@ -24,15 +24,19 @@ http://106-tyto-sandbox.localtest.me:8080/
 
 Sign in to the preview with the shared credentials from make demo-help (PREVIEW_AUTH file in .demo.env).
 
-Then sign in to the app with a review account: [packages/db/seeds/review/README.md](https://github.com/DarkFactoryTestORG/tyto-sandbox/blob/578108732b9866efbf44309521cb38241c0e85fb/packages/db/seeds/review/README.md).
+Then sign in to the app with a review account: [packages/db/seeds/review/README.md](https://github.com/DarkFactoryTestORG/tyto-sandbox/blob/722302e570f9369f9b4c9c831ada03436500424f/packages/db/seeds/review/README.md).
 
-The preview sleeps after 15 minutes without requests and wakes on the next one, in about 5 seconds (measured when this head started).
+The preview sleeps after 15 minutes without requests and wakes on the next one, in about 1 seconds (measured when this head started).
 
-It serves `578108732b98`.
+It serves `722302e570f9`.
 
 ## Ledger
 
-No feedback.
+1 item: 1 fixed.
+
+| Source | Author | Item | State | Resolution |
+|---|---|---|---|---|
+| comment | @michaeltomlinsontuks | [Make the background Mint (#6fe3b4)](https://github.com/DarkFactoryTestORG/tyto-sandbox/pull/107#issuecomment-6446394040) | fixed | fixed in 960385e |
 
 ## Dismissals
 
@@ -48,8 +52,8 @@ Credentials: make demo-help (PREVIEW_AUTH file in .demo.env).
 
 | App | Image | Digest |
 |---|---|---|
-| api | `ghcr.io/darkfactorytestorg/tyto-sandbox-api:578108732b9866efbf44309521cb38241c0e85fb` | `sha256:a653d18e52d7a85e05df4212ca64b525054b9b14cec3a691bf2751b25dd218cd` |
-| web | `ghcr.io/darkfactorytestorg/tyto-sandbox-web:578108732b9866efbf44309521cb38241c0e85fb` | `sha256:61cc8fd74a8727063a58216016989a9cecaf5484592fe8541e2ce76f48b0c940` |
+| api | `ghcr.io/darkfactorytestorg/tyto-sandbox-api:722302e570f9369f9b4c9c831ada03436500424f` | `sha256:a653d18e52d7a85e05df4212ca64b525054b9b14cec3a691bf2751b25dd218cd` |
+| web | `ghcr.io/darkfactorytestorg/tyto-sandbox-web:722302e570f9369f9b4c9c831ada03436500424f` | `sha256:4d1d86307eb3adfdcdf729e5849f6af76b68eb3b6096ac893f450c53967909b7` |
 
 The preview's database holds the `review` seed. Accounts to sign in with: `packages/db/seeds/review/README.md`.
 
@@ -67,23 +71,25 @@ The issue states no risks or rollback.
 
 <details><summary>Run details</summary>
 
-- Issue: DarkFactoryTestORG/tyto-sandbox#106, mode `demo`, attempt 1
+- Issue: DarkFactoryTestORG/tyto-sandbox#106, mode `demo`, attempt 2
 - Branch: `tyto/106-demo-background-colour-ocean-blue` from `374e7072ff30` (`dev` was `374e7072ff30` when it was prepared)
-- Cost: $0.02
+- Cost: $0.07
 
 | Step | Brick | Status | Summary |
 |---|---|---|---|
-| flow/prepare | prepare | done | on tyto/106-demo-background-colour-ocean-blue (created at the base), base 374e7072ff30 |
+| flow/prepare | prepare | done | on tyto/106-demo-background-colour-ocean-blue (fetched (82574b8accd4)), base 374e7072ff30, run state restored from 4d11a3dac2e8 |
 | flow/seed | seed | done | database reset to the base snapshot |
 | flow/baseline | baseline | done | baseline for 374e7072ff30 from the warmer: no failing test |
 | flow/demo-colour | demo-colour | done | Background set to #4fa3ff (Ocean blue) with matching label; lint and format checks pass. |
 | flow/pr-open | pr-open | done | draft PR open |
-| flow/sync | sync | done | up to date with dev at 374e7072ff30 |
-| flow/ledger | ledger | done | No feedback. 0 open (0 required) |
-| flow/judge | judge | skipped | skipped: steps.ledger.open > 0 \|\| steps.ledger.conflicted is false |
-| flow/final-gates | final-gates | done | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
-| flow/review-images | review-images | done | 2 review image(s) built for 578108732b98 |
-| flow/review-seed | review-seed | done | database seeded with the review scenario review |
-| flow/preview | preview | done | preview at http://106-tyto-sandbox.localtest.me:8080/ for 578108732b98 (started in 5.1 s) |
+| flow/sync@2 | sync | done | up to date with dev at 374e7072ff30 |
+| flow/ledger@2 | ledger | done | 1 item: 1 open. 1 open (1 required) |
+| flow/judge@2 | judge | done | round 2: 1 applied  Updated the background and label to Mint (#6fe3b4); lint, typecheck, and all tests pass. |
+| flow/ledger@3 | ledger | done | 1 item: 1 fixed. 0 open (0 required) |
+| flow/judge@3 | judge | skipped | skipped: steps.ledger.open > 0 \|\| steps.ledger.conflicted is false |
+| flow/final-gates@2 | final-gates | done | 4 gate(s) pass without remote cache reads: lint, format, typecheck, tests-all |
+| flow/review-images@2 | review-images | done | 2 review image(s) built for 722302e570f9 |
+| flow/review-seed@2 | review-seed | done | database seeded with the review scenario review |
+| flow/preview@2 | preview | done | preview at http://106-tyto-sandbox.localtest.me:8080/ for 722302e570f9 (started in 0.0 s) |
 
 </details>
