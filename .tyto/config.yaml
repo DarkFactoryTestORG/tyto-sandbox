@@ -2,7 +2,27 @@
 # The factory reads this file from the base SHA on dev, never from a branch (F45), and no agent may
 # change anything under .tyto/ or .github/workflows/ (F46).
 # Library kinds available for authoring; the factory also controls its served modes.
-modes: [demo, smoke, smoke-tight, chore, backend-logic-change, backend-crud-endpoint, backend-integration, backend-migration, bug-symptom, bug-data, frontend-ui-change, frontend-component, frontend-new-screen, frontend-flow-form, maintenance-test-coverage, maintenance-refactor, maintenance-performance, maintenance-dependency-upgrade]
+modes:
+  [
+    demo,
+    smoke,
+    smoke-tight,
+    chore,
+    backend-logic-change,
+    backend-crud-endpoint,
+    backend-integration,
+    backend-migration,
+    bug-symptom,
+    bug-data,
+    frontend-ui-change,
+    frontend-component,
+    frontend-new-screen,
+    frontend-flow-form,
+    maintenance-test-coverage,
+    maintenance-refactor,
+    maintenance-performance,
+    maintenance-dependency-upgrade,
+  ]
 
 git:
   baseBranch: dev
