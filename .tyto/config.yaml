@@ -1,6 +1,9 @@
 # Plotline's repo contract with the TYTO factory (docs/plan/CONTEXT.md §15 in the factory repo).
 # The factory reads this file from the base SHA on dev, never from a branch (F45), and no agent may
 # change anything under .tyto/ or .github/workflows/ (F46).
+# Library kinds available for authoring; the factory also controls its served modes.
+modes: [demo, smoke, smoke-tight, chore, backend-logic-change, backend-crud-endpoint, backend-integration, backend-migration, bug-symptom, bug-data, frontend-ui-change, frontend-component, frontend-new-screen, frontend-flow-form, maintenance-test-coverage, maintenance-refactor, maintenance-performance, maintenance-dependency-upgrade]
+
 git:
   baseBranch: dev
 
@@ -17,6 +20,7 @@ commands:
   typecheck: pnpm turbo run typecheck
   format: pnpm format:check # Prettier and rustfmt
   migrate: pnpm --filter @plotline/db migrate
+  migrateDown: pnpm --filter @plotline/db migrate:down # newest migration's migrations/down/<tag>.sql; the migrate-roundtrip gate
   dbReset: pnpm --filter @plotline/db reset
   seed: pnpm --filter @plotline/db seed --scenario {scenario}
 
@@ -32,6 +36,7 @@ paths:
     - apps/web/e2e/**
     - packages/db/test/**
     - crates/*/tests/**
+  e2e: ['apps/web/e2e/**'] # Playwright: `test` skips these, the gates run them through test-e2e
   evidence: evidence/
   forbidden: ['.tyto/**', '.github/workflows/**'] # always forbidden, whatever is listed
 
@@ -85,6 +90,12 @@ apps:
       readyTimeoutSeconds: 240
       env:
         API_URL: '{{apps.api.url}}'
+
+# The standard viewports (standards/design.md): the columns of a screenshot grid (phase 29).
+browser:
+  viewports:
+    - { name: desktop, width: 1440, height: 900 }
+    - { name: phone, width: 375, height: 812 }
 
 buildCache: [turbo, sccache]
 

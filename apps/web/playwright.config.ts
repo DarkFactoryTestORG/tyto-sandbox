@@ -2,6 +2,8 @@ import { defineConfig, devices } from '@playwright/test';
 
 // e2e runs against `start` of both apps (built first by turbo's test:e2e dependencies) on a
 // database seeded with `baseline` (the root `pnpm test:e2e` resets and seeds it).
+// In a factory issue pod both apps already run in dev mode on these ports (phase 18's dev-servers):
+// reuseExistingServer makes Playwright use them instead of starting a second copy. CI is unset in the pod.
 const WEB_URL = process.env.WEB_URL ?? 'http://localhost:3000';
 const API_PORT = 4000;
 

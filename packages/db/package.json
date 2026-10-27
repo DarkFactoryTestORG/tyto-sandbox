@@ -13,6 +13,7 @@
     "build": "tsc -p tsconfig.build.json",
     "generate": "drizzle-kit generate",
     "migrate": "node dist/src/cli/migrate.js",
+    "migrate:down": "node scripts/migrate-down.mjs",
     "reset": "node dist/src/cli/reset.js",
     "seed": "node dist/src/cli/seed.js",
     "fixtures": "node dist/src/cli/fixtures.js",
