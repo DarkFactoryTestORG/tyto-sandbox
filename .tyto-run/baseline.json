@@ -1,0 +1,15 @@
+{
+  "baseSha": "374e7072ff30679cd4001a916d61586c01781078",
+  "commands": {
+    "lint": {
+      "exitCode": 0
+    },
+    "typecheck": {
+      "exitCode": 0
+    },
+    "test": {
+      "exitCode": 0
+    }
+  },
+  "failingTests": []
+}
