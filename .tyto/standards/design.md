@@ -27,7 +27,8 @@ Viewers (`role: viewer`) see the same screens with every control that changes da
 
 ## Viewports
 
-Two standard viewports, used by e2e tests and evidence screenshots:
+Two standard viewports, used by e2e tests and evidence screenshots (`browser.viewports` in
+`.tyto/config.yaml` lists the same two, for screenshot grids):
 
 - **phone**: 375×812
 - **desktop**: 1440×900
