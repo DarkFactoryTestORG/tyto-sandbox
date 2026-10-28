@@ -16,3 +16,23 @@ a {
     padding: var(--space-lg);
   }
 }
+
+/* tyto-demo:start — the page background the demo issue asked for. Keep the colour and the label in step. */
+:root {
+  --demo-background: #6fe3b4;
+}
+
+body {
+  background: var(--demo-background);
+}
+
+body::before {
+  content: 'Background #6fe3b4';
+  display: block;
+  padding: var(--space-xs) var(--space-md);
+  background: var(--color-text);
+  color: var(--color-surface);
+  font-weight: 600;
+  text-align: center;
+}
+/* tyto-demo:end */
